@@ -4,6 +4,8 @@ body {
     background: linear-gradient(135deg, #e17ea7, #fbb266);
     color: white;
     text-align: center;
+    height: 100vh; /* Gør body til at fylde hele skærmen */
+    min-height: 100vh; /* Sikrer at baggrunden dækker hele skærmen */
   }
   
   header {
@@ -62,6 +64,20 @@ body {
     margin: 0;
     cursor: pointer;
   }
+
+  .cravings figure {
+    width: 200px; /* Større cirkler */
+    height: 200px; /* Større cirkler */
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid white;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    cursor: pointer;
+}
   
   figure img {
     width: 100%;
