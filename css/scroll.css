@@ -44,16 +44,14 @@ body {
     scroll-snap-type: x mandatory;
     gap: 2rem;
     padding: 1rem;
+    width: 100%;
   }
   
   .horizontal-scroll > article {
-    flex: 0 0 80%;
+    flex: 0 0 40%;
     scroll-snap-align: center;
-    background: #fdfdfd;
     padding: 2rem;
-    border-radius: 12px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    min-width: 300px;
+    width: 30%;
   }
 
   #brain {
