@@ -38,6 +38,24 @@ body {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
   }
 
+  .horizontal-scroll {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 2rem;
+    padding: 1rem;
+  }
+  
+  .horizontal-scroll > article {
+    flex: 0 0 80%;
+    scroll-snap-align: center;
+    background: #fdfdfd;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    min-width: 300px;
+  }
+
   #brain {
     height: 100vh;
   }
