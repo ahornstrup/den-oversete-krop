@@ -10,6 +10,7 @@ body {
     font-family: 'Baloo 2', cursive;
     background-color: white;
     color: black;
+    overflow: hidden;
 }
 
 .heart-buttons {
@@ -25,8 +26,8 @@ body {
     font-weight: bold;
     border: none;
     border-radius: 50%;
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
     text-align: center;
     padding: 1rem;
     cursor: pointer;
@@ -42,16 +43,18 @@ body {
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-    gap: 2rem;
+    gap: 20rem;
     padding: 1rem;
-    width: 100%;
+    width: 40%;
+    position: absolute;
+    right: 0;
   }
   
   .horizontal-scroll > article {
-    flex: 0 0 40%;
-    scroll-snap-align: center;
+    flex: 0 0 100%;
+    scroll-snap-align: start;
     padding: 2rem;
-    width: 30%;
+    width: 100%;
   }
 
   #brain {
