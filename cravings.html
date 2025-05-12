@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hvad fortæller cravings</title>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/cravings.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <button>ZOOM UD</button>
+      <button>TILBAGE</button>
+    </nav>
+    <h1>Hvad fortæller cravings</h1>
+  </header>
+
+  <main>
+    <section class="cravings">
+      <figure data-popup="popup-chips"><img src="./img/cravings/CravingsChips.jpg" alt="Chips"></figure>
+      <figure data-popup="popup-slik"><img src="./img/cravings/cravingsSukker.webp" alt="Slik"></figure>
+      <figure data-popup="popup-chokolade"><img src="./img/cravings/cravingsChokolade.jpg" alt="Chokolade"></figure>
+      <figure data-popup="popup-broed"><img src="./img/cravings/cravingsBroed.jpg" alt="Brød"></figure>
+    </section>
+
+    <section>
+      <button class="next-button">Næste</button>
+    </section>
+  </main>
+
+  <!-- Popups -->
+  <section id="popup-chips" class="popup hidden">
+    <article class="popup-content">
+      <p>Du craver måske salt – kroppen kan mangle elektrolytter.</p>
+      <button class="close-button">Luk</button>
+    </article>
+  </section>
+
+  <section id="popup-slik" class="popup hidden">
+    <article class="popup-content">
+      <p>Du længes måske efter energi eller følelsesmæssig trøst.</p>
+      <button class="close-button">Luk</button>
+    </article>
+  </section>
+
+  <section id="popup-chokolade" class="popup hidden">
+    <article class="popup-content">
+      <p>Chokoladecravings kan skyldes magnesiumunderskud.</p>
+      <button class="close-button">Luk</button>
+    </article>
+  </section>
+
+  <section id="popup-broed" class="popup hidden">
+    <article class="popup-content">
+      <p>Brødtrang kan handle om behov for tryghed eller kulhydrater.</p>
+      <button class="close-button">Luk</button>
+    </article>
+  </section>
+
+  <script src="./js/cravings.js"></script>
+</body>
+</html>
