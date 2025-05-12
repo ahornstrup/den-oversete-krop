@@ -8,8 +8,8 @@
 
 body {
     font-family: 'Baloo 2', cursive;
-    background-color: ;
-    color: ;
+    background-color: white;
+    color: black;
 }
 
 .heart-buttons {
@@ -36,4 +36,20 @@ body {
   .circle-button:hover {
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  #brain {
+    height: 100vh;
+  }
+
+  #heart {
+    height: 100vh;
+  }
+
+  #stomach {
+    height: 100vh;
+  }
+
+  #uterus {
+    height: 100vh;
   }
