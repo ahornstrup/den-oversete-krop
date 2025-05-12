@@ -1,6 +1,6 @@
 "use strict";
 
-const video = document.getElementByClass('krop_video');
+const video = document.querySelector('.krop_video');
 let played = false;
 let reversing = false;
 
@@ -13,7 +13,7 @@ const reversePlayback = () => {
     return;
   }
 
-  video.currentTime -= 0.05; // adjust speed of reverse
+  video.currentTime -= 0.05; // adjust to control rewind speed
   requestAnimationFrame(reversePlayback);
 };
 
@@ -36,4 +36,5 @@ const observer = new IntersectionObserver((entries) => {
   });
 }, { threshold: 0.5 });
 
-observer.observe(video);
+observer.observe(document.querySelector('.video'));
+
