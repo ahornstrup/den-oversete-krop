@@ -1,0 +1,72 @@
+
+.hjerne-tekst h1 span {
+    display: inline-block;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.hjerne-tekst h1 span:nth-child(1) {
+    font-size: 140px;
+    transform: rotate(-18deg);
+    top: 40px;
+    right: 810px;
+}
+
+.hjerne-tekst h1 span:nth-child(2) {
+    font-size: 70px;
+    transform: rotate(-9deg);
+    top: 190px;
+    right: 860px;
+}
+
+.hjerne-tekst h1 span:nth-child(3) {
+    font-size: 100px;
+    top: 150px;
+    right: 740px;
+}
+
+.hjerne-tekst h1 span:nth-child(4) {
+    font-size: 80px;
+    transform: rotate(10deg);
+    top: 170px;
+    right: 630px;
+}
+
+.hjerne-tekst h1 span:nth-child(5) {
+    font-size: 170px;
+    transform: rotate(-2deg);
+    top: 220px;
+    right: 750px;
+}
+
+.hjerne-tekst h1 span:nth-child(6) {
+    font-size: 100px;
+    transform: rotate(7deg);
+    top: 280px;
+    right: 570px;
+}
+
+.hjerne-tekst h1 span:nth-child(7) {
+    font-size: 100px;
+    transform: rotate(12deg);
+    top: 290px;
+    right: 510px;
+}
+
+.hjerne-tekst h1 span:nth-child(8) {
+    font-size: 130px;
+    transform: rotate(4deg);
+    top: 400px;
+    right: 520px;
+}
+
+.hjerne-tekst h1 span:nth-child(9) {
+    font-size: 240px;
+    transform: rotate(4deg);
+    top: 340px;
+    right: 430px;
+}
+
+.hjerne-tekst p{
+    margin-top: 460px;
+}
