@@ -1,1 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Baloo 2', cursive;
+    background-color: ;
+    color: ;
+}
+
+.heart-buttons {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .circle-button {
+    background: radial-gradient(circle at center, #e63946, #d62828);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    padding: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .circle-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
