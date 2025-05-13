@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const pageHeight = document.documentElement.scrollHeight;
       const scrollPercent = scrollPosition / pageHeight;
   
-      if (scrollPercent >= 0.4 && !hasPlayed) {
+      if (scrollPercent >= 0.6 && !hasPlayed) {
         video.play();
         hasPlayed = true;
       }
