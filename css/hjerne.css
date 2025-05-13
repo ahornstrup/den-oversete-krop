@@ -77,3 +77,13 @@
 .hjerne-tekst p{
     margin-top: 460px;
 }
+
+.st-hover {
+  opacity: 1;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+#st1:hover {
+    opacity: 1;
+}

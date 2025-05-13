@@ -120,6 +120,14 @@ body {
     left: 160px;
   }
 
+   #brain svg {
+    width: 380px;
+    position: absolute;
+    top: 100px;
+    left: 160px;
+    transition: transform 0.2s ease,
+  }
+
   #heart {
     height: 100vh;
     z-index: 1000;
