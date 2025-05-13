@@ -36,38 +36,12 @@ body {
   pointer-events: none;
 
 }
-
-.heart-buttons {
-    display: flex;
-    gap: 2rem;
-    justify-content: center;
-    margin-top: 2rem;
-  }
   
-  .circle-button {
-    background: radial-gradient(circle at center, #e63946, #d62828);
-    color: white;
-    font-weight: bold;
-    border: none;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    text-align: center;
-    padding: 1rem;
-    cursor: pointer;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-  }
-  
-  .circle-button:hover {
-    transform: scale(1.05);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-  }
-
   .horizontal-scroll {
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-    gap: 20rem;
+    gap: 40rem;
     padding: 1rem;
     width: 40%;
     position: absolute;
@@ -124,4 +98,41 @@ body {
     background-color: #FFAF65;
     transform: scale(1.05);
   }
+
+  /* Fælles for scroll-highlight spans */
+.scroll-highlight {
+    white-space: pre-line;
+  }
+  
+  /* Kun 'Vejer<br>mere' - scroll-highlight UDEN .question */
+  .scroll-highlight:not(.question) {
+    font-size: 2.5em;
+    color: #FF7A7A;
+    font-weight: bold;
+    line-height: 1; /* Reducer linjeafstanden generelt */
+    text-shadow:
+      -1px -1px 0 #ffffff,
+       1px -1px 0 #ffffff,
+      -1px  1px 0 #ffffff,
+       1px  1px 0 #ffffff;
+  }
+  
+  .scroll-highlight:not(.question) span {
+    vertical-align: -0.2em; /* Juster den vertikale afstand */
+  }
+  
+  
+  /* Kun spørgsmålstegnet */
+  .scroll-highlight.question {
+    font-size: 4em;
+    color: #EA2A37;
+    font-weight: bold;
+    text-shadow:
+      -1px -1px 0 #ffffff,
+       1px -1px 0 #ffffff,
+      -1px  1px 0 #ffffff,
+       1px  1px 0 #ffffff;
+  }
+  
+ 
   
