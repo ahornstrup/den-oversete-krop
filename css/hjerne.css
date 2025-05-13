@@ -1,8 +1,15 @@
 
+.hjerne-h1 {
+    right: -400px;
+    top: -50px;
+    position: absolute;
+}
+
 .hjerne-tekst h1 span {
     display: inline-block;
     position: absolute;
     white-space: nowrap;
+    color: white;
 }
 
 .hjerne-tekst h1 span:nth-child(1) {
