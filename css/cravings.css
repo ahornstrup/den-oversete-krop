@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     font-family: 'Baloo 2', cursive;
@@ -35,8 +36,9 @@ body {
   }
   
   h1 {
-    font-size: 40px;
+    font-size: 60px;
     margin-top: 80px;
+    font-family: 'Baloo';
   }
   
   main {
@@ -52,8 +54,8 @@ body {
   }
   
   figure {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     overflow: hidden;
     border: 5px solid white;
