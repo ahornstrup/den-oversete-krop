@@ -5,3 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Baloo 2', cursive;
+    background: #9BC5CF;
+    overflow-x: hidden;
+}
