@@ -146,9 +146,10 @@ body {
  }
 
  .slide2 {
-    font-size: 5em;
+    font-size: 9em;
     color: #EA2A37;
     margin: 0;
+    line-height: 1;
     text-shadow:
     -1px -1px 0 #ffffff,
      1px -1px 0 #ffffff,
@@ -173,4 +174,12 @@ body {
      1px -1px 0 #ffffff,
     -1px  1px 0 #ffffff,
      1px  1px 0 #ffffff;
+  }
+
+  .slide4 {
+    color: #4D1717;
+    font-family: 'Baloo', cursive;
+    font-size: 2em;
+    line-height: 1.6;
+    margin: 1em 0;
   }
