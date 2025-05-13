@@ -144,4 +144,33 @@ body {
   right: 170px;
   top: 50px;
  }
+
+ .slide2 {
+    font-size: 5em;
+    color: #EA2A37;
+    margin: 0;
+    text-shadow:
+    -1px -1px 0 #ffffff,
+     1px -1px 0 #ffffff,
+    -1px  1px 0 #ffffff,
+     1px  1px 0 #ffffff;
+  }
   
+  .slide2p {
+    font-size: 1.8em;
+    margin-top: 0.5em;
+    line-height: 1.6;
+  }
+  
+  .slide3 {
+    color: #EA2A37;
+    font-family: 'Baloo', cursive;
+    font-size: 2em;
+    line-height: 1.6;
+    margin: 1em 0;
+    text-shadow:
+    -1px -1px 0 #ffffff,
+     1px -1px 0 #ffffff,
+    -1px  1px 0 #ffffff,
+     1px  1px 0 #ffffff;
+  }
