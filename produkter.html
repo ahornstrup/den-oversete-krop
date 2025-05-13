@@ -8,7 +8,8 @@
 </head>
 <body>
 
-<main>
+<main> 
+<section id="forside" class="screen">
     <h1>Hvad skal man vælge</h1>
     <section class="spørgsmålstegn">
         <span>?</span>
@@ -16,15 +17,24 @@
     </section>
     <h2>Tryk på et produkt!</h2>
 
+        <img id="bind" class="produkter" src="img/produkter/bind.webp" alt="" data-product="bind">
+        <img id="tampon" class="produkter" src="img/produkter/tampon.webp" alt="" data-product="tampon">
+        <img id="indlaeg" class="produkter" src="img/produkter/trusseindlaeg.webp" alt="" data-product="indlaeg">
+        <img id="disk" class="produkter" src="img/produkter/disk.webp" alt="" data-product="disk">
+        <img id="trusser" class="produkter" src="img/produkter/trusser.webp" alt="" data-product="trusser">
+        <img id="kop" class="produkter" src="img/produkter/kop.webp" alt="" data-product="kop">      
+</section>
 
-        <img id="bind" class="produkter" src="img/produkter/bind.webp" alt="">
-        <img id="tampon" class="produkter" src="img/produkter/tampon.webp" alt="">
-        <img id="indlaeg" class="produkter" src="img/produkter/trusseindlaeg.webp" alt="">
-        <img id="disk" class="produkter" src="img/produkter/disk.webp" alt="">
-        <img id="trusser" class="produkter" src="img/produkter/trusser.webp" alt="">
-        <img id="kop" class="produkter" src="img/produkter/kop.webp" alt="">
-        
+<section id="produkt-info" class="screen">
+        <button id="tilbage">TILBAGE</button>
+        <img id="produkt-billede" src="" alt="">
+            <p id="produkt-fordele"></p>
+            <p id="produkt-ulemper"></p>
+            <p id="miljoe"></p>
+            <p id="bedst-til"></p>
+</section>
 </main>
     
+<script src="js/produkter.js"></script>
 </body>
 </html>

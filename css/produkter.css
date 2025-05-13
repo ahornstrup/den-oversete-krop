@@ -105,3 +105,56 @@ main h2 {
     left: 55%;
     bottom: 10%;
 }
+
+
+.hidden {
+    display: none;
+  }
+
+#produkt-info{
+    display: none;
+}
+
+#produkt-info {
+    background: radial-gradient(circle, rgba(255, 226, 226, 1) 0%, rgba(255, 192, 192, 1) 100%);
+    border-radius: 30px;
+    padding: 3rem;
+    text-align: center;
+    margin: 4rem auto;
+    max-width: 800px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    position: relative;
+    color: #4D1717;
+    font-size: 1.5rem;
+    animation: fadeIn 0.5s ease forwards;
+}
+
+#produkt-info img {
+    width: 200px;
+    margin-bottom: 2rem;
+}
+
+#tilbage {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background: #FF7A7A;
+    border: none;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+#tilbage:hover {
+    background-color: #ff4a4a;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
