@@ -130,3 +130,14 @@ body {
     z-index: 1000;
     position: relative;
   }
+
+  #red-bubble {
+    width: 600px;
+    height: 600px;
+    border-radius: 1000px;
+    background: #d62828;
+    filter: blur(100px);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
