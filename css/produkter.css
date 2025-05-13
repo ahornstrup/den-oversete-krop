@@ -34,7 +34,7 @@ main h1 {
     position: absolute;
     right: 25%;
     top: 8%;
-    font-weight: bold;
+    font-weight: bolder;
     -webkit-text-stroke: 4px white; /* laver en hvid kant rundt om teksten */
 }
 
@@ -46,7 +46,7 @@ main h1 {
 
 .spørgsmålstegn span:nth-child(2) {
     font-size: 200px;
-    transform: rotate(-18deg);
+    transform: rotate(-30deg);
     color: #CDE8EE;
 }
 
@@ -56,7 +56,52 @@ main h2 {
     font-family: baloo-2;
     font-weight: 400;
     white-space: nowrap;
-    right: 22%;
+    right: 24.5%;
     top: 38%;
     color: #4D1717;
+}
+
+.produkter{
+    position: absolute;
+    transition: ease 0.4s;
+}
+
+.produkter:hover{
+    transform:scale(1.1);
+}
+
+#bind{
+    width: 250px;
+    left: 4%;
+    bottom: 0;
+}
+
+#tampon{
+    width: 200px;
+    left: 23%;
+    top: 20%;
+}
+
+#disk{
+    width: 300px;
+    right: 6%;
+    bottom: 0;
+}
+
+#trusser{
+    width: 300px;
+    top: 4%;
+    left: 4%;
+}
+
+#indlaeg{
+    width: 260px;
+    bottom: 5%;
+    left: 36%;
+}
+
+#kop{
+    width: 170px;
+    left: 55%;
+    bottom: 10%;
 }
