@@ -13,9 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
       if (scrollPercent >= 0.4 && !hasPlayed) {
         video.play();
         hasPlayed = true;
-      } else if (scrollPercent < 0.4 && hasPlayed) {
-        video.pause();
-        hasPlayed = false;
       }
     });
   });
