@@ -105,3 +105,54 @@ main h2 {
     left: 55%;
     bottom: 10%;
 }
+
+
+.hidden {
+    display: none;
+  }
+
+#produkt-info{
+    display: none;
+}
+
+#produkt-info {
+    background: linear-gradient(to right, #ffe0e0, #ffb6c1);
+    padding: 2rem;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    margin: 2rem auto;
+    max-width: 800px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  #produkt-info h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #6b1d1d;
+  }
+  
+  #produkt-billede {
+    width: 200px;
+    height: auto;
+    margin-top: 1rem;
+  }
+  
+  #tilbage {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background-color: #ffb6c1;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #999;
+    transition: background 0.2s ease;
+  }
+  
+  #tilbage:hover {
+    background-color: #ff90a0;
+  }
+  
