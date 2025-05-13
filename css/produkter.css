@@ -33,20 +33,20 @@ main h1 {
     display: inline-block;
     position: absolute;
     right: 25%;
-    top: 11%;
+    top: 8%;
     font-weight: bold;
-    -webkit-text-stroke: 3px white; /* laver en hvid kant rundt om teksten */
+    -webkit-text-stroke: 4px white; /* laver en hvid kant rundt om teksten */
 }
 
 .spørgsmålstegn span:nth-child(1) {
     font-size: 140px;
-    transform: rotate(-18deg);
+    transform: rotate(-9deg);
     color: #FF7A7A;
 }
 
 .spørgsmålstegn span:nth-child(2) {
-    font-size: 70px;
-    transform: rotate(-9deg);
+    font-size: 200px;
+    transform: rotate(-18deg);
     color: #CDE8EE;
 }
 
@@ -57,6 +57,6 @@ main h2 {
     font-weight: 400;
     white-space: nowrap;
     right: 22%;
-    top: 35%;
+    top: 38%;
     color: #4D1717;
 }
