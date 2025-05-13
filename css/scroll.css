@@ -140,4 +140,17 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    transition: transform 2s ease-in-out;
+  }
+
+  #orange-bubble {
+    width: 600px;
+    height: 600px;
+    border-radius: 1000px;
+    background: #FFAF65;
+    filter: blur(100px);
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: transform 2s ease-in-out;
   }
