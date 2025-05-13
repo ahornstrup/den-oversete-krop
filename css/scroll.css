@@ -8,8 +8,8 @@
 
 body {
     font-family: 'Baloo 2', cursive;
-    background-color: white;
-    color: black;
+    background: #F9BB94;
+    background: linear-gradient(0deg, rgba(249, 187, 148, 1) 0%, rgba(235, 131, 101, 1) 50%, rgba(237, 100, 100, 1) 100%);
     overflow-x: hidden;
 }
 
@@ -38,8 +38,9 @@ body {
 
 .heart-buttons {
     display: flex;
-    gap: 2rem;
+    gap: 3rem;
     justify-content: center;
+    align-items: center;
     margin-top: 2rem;
   }
   
@@ -70,15 +71,27 @@ body {
     padding: 1rem;
     width: 40%;
     position: absolute;
-    right: 0;
+    right: 90px;
+    top: 1200px;
   }
-  
+
   .horizontal-scroll > article {
     flex: 0 0 100%;
     scroll-snap-align: start;
     padding: 2rem;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #fff;
   }
+
+  .fed {
+    font-weight: 800;
+}
 
   #brain {
     height: 100vh;

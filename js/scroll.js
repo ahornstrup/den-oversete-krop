@@ -1,6 +1,5 @@
 "use strict";
 
-
 document.addEventListener("DOMContentLoaded", () => {
     const video = document.getElementById("krop-video");
     let hasPlayed = false;
