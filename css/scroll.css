@@ -72,7 +72,7 @@ body {
     width: 40%;
     position: absolute;
     right: 90px;
-    top: 1200px;
+    top: 900px;
   }
 
   .horizontal-scroll > article {
@@ -92,6 +92,13 @@ body {
   .fed {
     font-weight: 800;
 }
+
+.info-tekst {
+    font-size: 1.5rem;
+    margin-top: 30px;
+    transform: rotate(-10deg);
+    font-weight: 300;
+  }
 
   #brain {
     height: 100vh;
