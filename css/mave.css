@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Baloo';
+    font-family: 'Baloo 2';
     background-color: white;
     color: black;
     overflow-x: hidden;
@@ -99,6 +99,11 @@ body {
     transform: scale(1.05);
   }
 
+  .scroll-bold {
+    width: 47%;
+    line-height: 32px;
+  }
+
   /* Fælles for scroll-highlight spans */
 .scroll-highlight {
     white-space: pre-line;
@@ -106,7 +111,7 @@ body {
   
   /* Kun 'Vejer<br>mere' - scroll-highlight UDEN .question */
   .scroll-highlight:not(.question) {
-    font-size: 2.5em;
+    font-size: 50px;
     color: #FF7A7A;
     font-weight: bold;
     line-height: 1; /* Reducer linjeafstanden generelt */
@@ -124,7 +129,7 @@ body {
   
   /* Kun spørgsmålstegnet */
   .scroll-highlight.question {
-    font-size: 4em;
+    font-size: 200px;
     color: #EA2A37;
     font-weight: bold;
     text-shadow:
@@ -134,5 +139,9 @@ body {
        1px  1px 0 #ffffff;
   }
   
- 
+ .question-box {
+  position: absolute;
+  right: 170px;
+  top: 50px;
+ }
   
