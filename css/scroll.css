@@ -19,17 +19,17 @@ body {
 
 #krop-video {
   height: 700vh;
+  transition: transform 0.6s ease-in-out;
 }
 
 .video {
   height: 460vh;
   position: absolute;
-  top: -40vh;
+  top: -60vh;
   right: -30%;
   overflow: hidden;
   pointer-events: none;
   z-index: 1;
-
 }
 
 .heart-buttons {
@@ -109,7 +109,7 @@ body {
   #brain img {
     width: 380px;
     position: absolute;
-    top: 30px;
+    top: 100px;
     left: 160px;
   }
 
