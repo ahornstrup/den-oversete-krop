@@ -1,40 +1,19 @@
 "use strict";
 
-const video = document.querySelector('.krop_video');
-let played = false;
-let reversing = false;
 
-const reversePlayback = () => {
-  if (!reversing) return;
-
-  if (video.currentTime <= 0) {
-    reversing = false;
-    video.pause();
-    return;
-  }
-
-  video.currentTime -= 0.05; // adjust to control rewind speed
-  requestAnimationFrame(reversePlayback);
-};
-
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting && !played) {
-      video.play();
-      played = true;
-
-      video.onended = () => {
-        video.pause();
-      };
-
-    } else if (!entry.isIntersecting && played && video.currentTime > 0) {
-      video.pause();
-      reversing = true;
-      reversePlayback();
-      played = false;
-    }
+document.addEventListener("DOMContentLoaded", () => {
+    const video = document.getElementById("krop-video");
+    let hasPlayed = false;
+  
+    window.addEventListener("scroll", () => {
+      const scrollPosition = window.scrollY + window.innerHeight;
+      const pageHeight = document.documentElement.scrollHeight;
+      const scrollPercent = scrollPosition / pageHeight;
+  
+      if (scrollPercent >= 0.4 && !hasPlayed) {
+        video.play();
+        hasPlayed = true;
+      }
+    });
   });
-}, { threshold: 0.5 });
-
-observer.observe(document.querySelector('.video'));
 

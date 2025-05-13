@@ -21,7 +21,7 @@ body {
   width: 60%;
 }
 
-.krop_video {
+#krop-video {
   height: 700vh;
 }
 
@@ -32,6 +32,8 @@ body {
   right: -30%;
   z-index: 1000;
   overflow: hidden;
+  pointer-events: none;
+
 }
 
 .heart-buttons {
