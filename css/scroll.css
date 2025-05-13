@@ -8,8 +8,8 @@
 
 body {
     font-family: 'Baloo 2', cursive;
-    background-color: white;
-    color: black;
+    background: #F9BB94;
+    background: linear-gradient(0deg, rgba(249, 187, 148, 1) 0%, rgba(235, 131, 101, 1) 50%, rgba(237, 100, 100, 1) 100%);
     overflow-x: hidden;
 }
 
