@@ -13,7 +13,7 @@ const reversePlayback = () => {
     return;
   }
 
-  video.currentTime -= 0.05; // adjust to control rewind speed
+  video.currentTime -= 0.5; // adjust to control rewind speed
   requestAnimationFrame(reversePlayback);
 };
 
