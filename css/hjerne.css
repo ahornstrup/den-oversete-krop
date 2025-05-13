@@ -84,6 +84,19 @@
   cursor: pointer;
 }
 
-#st1:hover {
-    opacity: 1;
+#brain-tekst {
+    color: white;
+    line-height: 1;
+}
+
+#st-tekst {
+    font-size: 100px;
+    font-weight: 800;
+    padding-bottom: 50px;
+}
+
+#st-p {
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 0;
 }
