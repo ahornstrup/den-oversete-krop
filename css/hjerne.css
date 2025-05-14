@@ -80,9 +80,13 @@
     transition: transform 0.2s ease,
 }
 
-#st6:hover ~ #st1, #st6:hover ~ #st3, #st6:hover ~ #st4, #st6:hover ~ #st5 {
+#brain-svg:hover .st-hover {
     opacity: 0.5;
-}
+  }
+  
+  #brain-svg .st-hover:hover {
+    opacity: 1;
+  }
 
 #brain-tekst {
     color: white;
