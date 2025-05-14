@@ -76,13 +76,12 @@
 }
 
 .st-hover {
-    opacity: 0.7;
     cursor: pointer;
     transition: transform 0.2s ease,
 }
 
-#st1:hover, #st3:hover, #st4:hover, #st5:hover, #st6:hover {
-    opacity: 1;
+#st6:hover ~ #st1, #st6:hover ~ #st3, #st6:hover ~ #st4, #st6:hover ~ #st5 {
+    opacity: 0.5;
 }
 
 #brain-tekst {
