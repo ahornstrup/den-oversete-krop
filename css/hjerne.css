@@ -1,8 +1,9 @@
 
 .hjerne-h1 {
-    right: -400px;
-    top: -50px;
+    right: -280px;
+    top: 30px;
     position: absolute;
+    transform: scale(1.2);
 }
 
 .hjerne-tekst h1 span {
@@ -22,21 +23,21 @@
 .hjerne-tekst h1 span:nth-child(2) {
     font-size: 70px;
     transform: rotate(-9deg);
-    top: 190px;
+    top: 170px;
     right: 860px;
 }
 
 .hjerne-tekst h1 span:nth-child(3) {
     font-size: 100px;
-    top: 150px;
-    right: 740px;
+    top: 140px;
+    right: 730px;
 }
 
 .hjerne-tekst h1 span:nth-child(4) {
     font-size: 80px;
     transform: rotate(10deg);
     top: 170px;
-    right: 630px;
+    right: 610px;
 }
 
 .hjerne-tekst h1 span:nth-child(5) {
@@ -56,7 +57,7 @@
 .hjerne-tekst h1 span:nth-child(7) {
     font-size: 100px;
     transform: rotate(12deg);
-    top: 290px;
+    top: 300px;
     right: 510px;
 }
 
@@ -74,13 +75,10 @@
     right: 430px;
 }
 
-.hjerne-tekst p{
-    margin-top: 460px;
-}
-
 .st-hover {
     opacity: 0.7;
     cursor: pointer;
+    transition: transform 0.2s ease,
 }
 
 #st1:hover, #st3:hover, #st4:hover, #st5:hover, #st6:hover {
@@ -90,16 +88,17 @@
 #brain-tekst {
     color: white;
     line-height: 1;
+    width: 80%;
 }
 
 #st-tekst {
-    font-size: 100px;
+    font-size: 120px;
     font-weight: 800;
     padding-bottom: 50px;
 }
 
 #st-p {
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 500;
     margin-top: 0;
 }
