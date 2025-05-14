@@ -4,8 +4,8 @@
     opacity: 0;
     transition: opacity 2s;
     transition: 0.3s;
-    width: 300px;
+    width: 210px;
     position: absolute;
-    left: 330px;
-    top: 330px;
+    left: 220px;
+    top: 250px;
 }
