@@ -18,9 +18,13 @@ body {
   width: 40%;
 }
 
-#hjerne-img {
-  width: 60%;
-}
+#stomach-img {
+    width: 500px; /* Ændrer bredden til 300px */
+    height: auto; /* Bevarer proportionerne */
+    position: absolute;
+    left: 8rem;
+    top: -8rem;
+  }
 
 #krop-video {
   height: 700vh;
@@ -46,6 +50,7 @@ body {
     width: 40%;
     position: absolute;
     right: 0;
+    top: 5rem;
   }
   
   .horizontal-scroll > article {
