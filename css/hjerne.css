@@ -77,3 +77,29 @@
 .hjerne-tekst p{
     margin-top: 460px;
 }
+
+.st-hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+#st1:hover, #st3:hover, #st4:hover, #st5:hover, #st6:hover {
+    opacity: 1;
+}
+
+#brain-tekst {
+    color: white;
+    line-height: 1;
+}
+
+#st-tekst {
+    font-size: 100px;
+    font-weight: 800;
+    padding-bottom: 50px;
+}
+
+#st-p {
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 0;
+}
