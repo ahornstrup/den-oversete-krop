@@ -46,13 +46,53 @@ main {
     right: 35.2rem;
 }
 
+.question-left {
+    cursor: pointer;
+}
+
+.question-right {
+    cursor: pointer;
+}
+
+.question-left:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.question-right:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.spg-button:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
 .left {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 2rem;
-    gap: 2rem;
+    margin-left: 4rem;
+    gap: 4rem;
     font-size: 1.4rem;
-    margin-top: 2.5rem;
+    margin-top: 4rem;
     max-width: 550px;
+    font-weight: bold;
+    color: #fff;
+    rotate: -5deg;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 1rem;
+    gap: 4rem;
+    font-size: 1.4rem;
+    margin-top: 5rem;
+    max-width: 550px;
+    font-weight: bold;
+    color: #fff;
+    rotate: 5deg;
 }
