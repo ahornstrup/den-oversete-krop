@@ -11,7 +11,8 @@ body {
     background-color: white;
     color: black;
     overflow-x: hidden;
-    background: linear-gradient(135deg, #FB809B, #FFE2B6);
+    background: linear-gradient(135deg,#FFE2B6,#FFE2B6, #FB809B );
+    
 }
 
 .tekst {
@@ -92,9 +93,9 @@ body {
     background-color: #FFAF65;
     color: #4D1717;
     text-decoration: none;
-    padding: 1rem 2rem;
+    padding: 1rem 2.5rem;
     border-radius: 12px;
-    font-size: 1.5rem;
+    font-size: 2rem;
     box-shadow: 0 4px 6px rgba(0,0,0,0.2);
     transition: transform 0.2s, background-color 0.2s;
     
@@ -107,7 +108,10 @@ body {
 
   .scroll-bold {
     width: 47%;
-    line-height: 32px;
+    line-height: 35px;
+    font-family: 'baloo';
+    font-size: 2rem;
+    color: #4D1717;
   }
 
   /* Fælles for scroll-highlight spans */
@@ -117,15 +121,15 @@ body {
   
   /* Kun 'Vejer<br>mere' - scroll-highlight UDEN .question */
   .scroll-highlight:not(.question) {
-    font-size: 50px;
+    font-size: 100px;
     color: #FF7A7A;
     font-weight: bold;
     line-height: 1; /* Reducer linjeafstanden generelt */
     text-shadow:
-      -1px -1px 0 #ffffff,
-       1px -1px 0 #ffffff,
-      -1px  1px 0 #ffffff,
-       1px  1px 0 #ffffff;
+    -3px -3px 0 #ffffff,
+    3px -3px 0 #ffffff,
+   -3px  3px 0 #ffffff,
+    3px  3px 0 #ffffff;
   }
   
   .scroll-highlight:not(.question) span {
@@ -136,13 +140,14 @@ body {
   /* Kun spørgsmålstegnet */
   .scroll-highlight.question {
     font-size: 200px;
-    color: #EA2A37;
+    color: #9BD1EA;
     font-weight: bold;
     text-shadow:
-      -1px -1px 0 #ffffff,
-       1px -1px 0 #ffffff,
-      -1px  1px 0 #ffffff,
-       1px  1px 0 #ffffff;
+      -3px -3px 0 #ffffff,
+       3px -3px 0 #ffffff,
+      -3px  3px 0 #ffffff,
+       3px  3px 0 #ffffff;
+       transform: rotate(20deg);
   }
   
  .question-box {
@@ -157,10 +162,10 @@ body {
     margin: 0;
     line-height: 1;
     text-shadow:
-    -1px -1px 0 #ffffff,
-     1px -1px 0 #ffffff,
-    -1px  1px 0 #ffffff,
-     1px  1px 0 #ffffff;
+    -3px -3px 0 #ffffff,
+    3px -3px 0 #ffffff,
+   -3px  3px 0 #ffffff,
+    3px  3px 0 #ffffff;
   }
   
   .slide2p {
@@ -176,10 +181,10 @@ body {
     line-height: 1.6;
     margin: 1em 0;
     text-shadow:
-    -1px -1px 0 #ffffff,
-     1px -1px 0 #ffffff,
-    -1px  1px 0 #ffffff,
-     1px  1px 0 #ffffff;
+    -2px -2px 0 #ffffff,
+    2px -2px 0 #ffffff,
+   -2px  2px 0 #ffffff,
+    2px  2px 0 #ffffff;
   }
 
   .slide4 {
@@ -199,20 +204,61 @@ body {
   }
  
   .questionmark {
+    transform: rotate(15deg); /* Tilføjet rotation */
     position: absolute;
-    top: 60px;
+    top: 65px;
     right: 30px;
     font-size: 200px;
-    color: #ED6464;
+    color: #9BD1EA;
     font-weight: bold;
     text-shadow:
-      -1px -1px 0 #ffffff,
-       1px -1px 0 #ffffff,
-      -1px  1px 0 #ffffff,
-       1px  1px 0 #ffffff;
+    -3px -3px 0 #ffffff,
+    3px -3px 0 #ffffff,
+   -3px  3px 0 #ffffff,
+    3px  3px 0 #ffffff;
     padding: 10px 20px;
     border-radius: 8px;
     z-index: 1000;
-    transform: rotate(10deg);
+
+  }
+
+  .button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: black;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    transition: background-color 0.2s ease;
+    z-index: 1000;
+  }
+  
+  .button-link:hover {
+    background-color: #ffffff;
+  }
+
+  nav {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  nav button {
+    font-family: 'Baloo 2', cursive;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background: #ffffff;
+    color: #2e2e2e;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    cursor: pointer;
   }
   

@@ -76,14 +76,17 @@
 }
 
 .st-hover {
-    opacity: 0.7;
     cursor: pointer;
     transition: transform 0.2s ease,
 }
 
-#st1:hover, #st3:hover, #st4:hover, #st5:hover, #st6:hover {
+#brain-svg:hover .st-hover {
+    opacity: 0.5;
+  }
+  
+  #brain-svg .st-hover:hover {
     opacity: 1;
-}
+  }
 
 #brain-tekst {
     color: white;

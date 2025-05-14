@@ -77,8 +77,8 @@ main h2 {
 }
 
 #tampon{
-    width: 200px;
-    left: 23%;
+    width: 220px;
+    left: 22%;
     top: 20%;
 }
 
@@ -148,4 +148,85 @@ main h2 {
     transform: translate(-50%);
     left: 50%;
     width: 350px;
+  }
+
+  .popup-tekst{
+    font-family: baloo-2;
+    font-size: 24px;
+    color: #4D1717;
+  }
+
+  .plus{
+    display: flex;
+    flex-direction: column;
+    top: 20%;
+    left: 3%;
+    position: absolute;
+    text-align: center;
+    line-height: 60px;
+    width: 500px;
+  }
+
+  .minus{
+    display: flex;
+    flex-direction: column;
+    right: 5%;
+    top: 20%;
+    position: absolute;
+    text-align: center;
+    width: 500px;
+  }
+
+  .miljoe{
+    display: flex;
+    flex-direction: column;
+    right: 5%;
+    position: absolute;
+    top: 70%;
+    text-align: center;
+    align-items: center;
+    width: 400px;
+  }
+
+  .bedst-til{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70%;
+    left: 3%;
+    width: 400px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .plus-ikon{
+    font-weight: bolder;
+    font-size: 60px;
+  }
+
+  .minus-ikon{
+    font-weight: bolder;
+    font-size: 60px;
+  }
+
+  .leaf{
+    width: 90px;
+    margin-bottom: 20px;
+  }
+
+  .thumb{
+    width: 80px;
+    margin-bottom: 20px;
+  }
+
+  .fed{
+    font-weight: bold; 
+  }
+
+  .minus p:nth-child(3) {
+    margin-bottom: 20px;
+  }
+
+  .minus p:nth-child(2) {
+    margin-bottom: 20px;
   }
