@@ -11,7 +11,8 @@ body {
     background-color: white;
     color: black;
     overflow-x: hidden;
-    background: linear-gradient(135deg, #FB809B, #FFE2B6);
+    background: linear-gradient(135deg,#FFE2B6,#FFE2B6, #FB809B );
+    
 }
 
 .tekst {
@@ -92,9 +93,9 @@ body {
     background-color: #FFAF65;
     color: #4D1717;
     text-decoration: none;
-    padding: 1rem 2rem;
+    padding: 1rem 2.5rem;
     border-radius: 12px;
-    font-size: 1.5rem;
+    font-size: 2rem;
     box-shadow: 0 4px 6px rgba(0,0,0,0.2);
     transition: transform 0.2s, background-color 0.2s;
     
@@ -107,7 +108,10 @@ body {
 
   .scroll-bold {
     width: 47%;
-    line-height: 32px;
+    line-height: 35px;
+    font-family: 'baloo';
+    font-size: 2rem;
+    color: #4D1717;
   }
 
   /* Fælles for scroll-highlight spans */
@@ -117,7 +121,7 @@ body {
   
   /* Kun 'Vejer<br>mere' - scroll-highlight UDEN .question */
   .scroll-highlight:not(.question) {
-    font-size: 50px;
+    font-size: 100px;
     color: #FF7A7A;
     font-weight: bold;
     line-height: 1; /* Reducer linjeafstanden generelt */
@@ -143,6 +147,7 @@ body {
        1px -1px 0 #ffffff,
       -1px  1px 0 #ffffff,
        1px  1px 0 #ffffff;
+       transform: rotate(20deg);
   }
   
  .question-box {
