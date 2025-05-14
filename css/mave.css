@@ -126,10 +126,10 @@ body {
     font-weight: bold;
     line-height: 1; /* Reducer linjeafstanden generelt */
     text-shadow:
-      -1px -1px 0 #ffffff,
-       1px -1px 0 #ffffff,
-      -1px  1px 0 #ffffff,
-       1px  1px 0 #ffffff;
+    -3px -3px 0 #ffffff,
+    3px -3px 0 #ffffff,
+   -3px  3px 0 #ffffff,
+    3px  3px 0 #ffffff;
   }
   
   .scroll-highlight:not(.question) span {
@@ -140,13 +140,13 @@ body {
   /* Kun spørgsmålstegnet */
   .scroll-highlight.question {
     font-size: 200px;
-    color: #EA2A37;
+    color: #9BD1EA;
     font-weight: bold;
     text-shadow:
-      -1px -1px 0 #ffffff,
-       1px -1px 0 #ffffff,
-      -1px  1px 0 #ffffff,
-       1px  1px 0 #ffffff;
+      -3px -3px 0 #ffffff,
+       3px -3px 0 #ffffff,
+      -3px  3px 0 #ffffff,
+       3px  3px 0 #ffffff;
        transform: rotate(20deg);
   }
   
@@ -162,10 +162,10 @@ body {
     margin: 0;
     line-height: 1;
     text-shadow:
-    -1px -1px 0 #ffffff,
-     1px -1px 0 #ffffff,
-    -1px  1px 0 #ffffff,
-     1px  1px 0 #ffffff;
+    -3px -3px 0 #ffffff,
+    3px -3px 0 #ffffff,
+   -3px  3px 0 #ffffff,
+    3px  3px 0 #ffffff;
   }
   
   .slide2p {
@@ -181,10 +181,10 @@ body {
     line-height: 1.6;
     margin: 1em 0;
     text-shadow:
-    -1px -1px 0 #ffffff,
-     1px -1px 0 #ffffff,
-    -1px  1px 0 #ffffff,
-     1px  1px 0 #ffffff;
+    -2px -2px 0 #ffffff,
+    2px -2px 0 #ffffff,
+   -2px  2px 0 #ffffff,
+    2px  2px 0 #ffffff;
   }
 
   .slide4 {
@@ -204,20 +204,21 @@ body {
   }
  
   .questionmark {
+    transform: rotate(15deg); /* Tilføjet rotation */
     position: absolute;
-    top: 60px;
+    top: 65px;
     right: 30px;
     font-size: 200px;
-    color: #ED6464;
+    color: #9BD1EA;
     font-weight: bold;
     text-shadow:
-      -1px -1px 0 #ffffff,
-       1px -1px 0 #ffffff,
-      -1px  1px 0 #ffffff,
-       1px  1px 0 #ffffff;
+    -3px -3px 0 #ffffff,
+    3px -3px 0 #ffffff,
+   -3px  3px 0 #ffffff,
+    3px  3px 0 #ffffff;
     padding: 10px 20px;
     border-radius: 8px;
     z-index: 1000;
-    transform: rotate(10deg);
+
   }
   
