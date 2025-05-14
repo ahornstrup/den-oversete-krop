@@ -134,6 +134,8 @@ main h2 {
   }
 
   .popup-h2 {
+    display: flex;
+    justify-content: center;
     font-weight: bold;
     font-size: 50px;
     position: absolute;
@@ -144,10 +146,10 @@ main h2 {
 
   .popup-img{
     position: absolute;
-    top: 12%;
-    transform: translate(-50%);
+    transform: translateX(-50%);
     left: 50%;
     width: 350px;
+    bottom: 0;
   }
 
   .popup-tekst{
@@ -174,7 +176,7 @@ main h2 {
     top: 20%;
     position: absolute;
     text-align: center;
-    width: 500px;
+    width: 470px;
   }
 
   .miljoe{
