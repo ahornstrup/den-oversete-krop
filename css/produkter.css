@@ -149,3 +149,46 @@ main h2 {
     left: 50%;
     width: 350px;
   }
+
+  .popup-tekst{
+    font-family: baloo-2;
+    font-size: 24px;
+  }
+
+  .plus{
+    display: flex;
+    flex-direction: column;
+    top: 20%;
+    left: 5%;
+    position: absolute;
+    text-align: center;
+    line-height: 60px;
+  }
+
+  .minus{
+    display: flex;
+    flex-direction: column;
+    right: 8%;
+    top: 20%;
+    position: absolute;
+    text-align: center;
+  }
+
+  .miljoe{
+    display: flex;
+    flex-direction: column;
+    right: 5%;
+    position: absolute;
+    top: 70%;
+    text-align: center;
+  }
+
+  .bedst-til{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    width: 400px;
+    text-align: center;
+  }
