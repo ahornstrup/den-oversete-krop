@@ -11,6 +11,7 @@ body {
     background: #9BC5CF;
     min-height: 100vh;
     overflow: hidden;
+    color: #fff;
   }
   
 main {
@@ -23,7 +24,7 @@ main {
     width: 300px;
     height: auto;
     position: absolute;
-    left: 575px;
+    left: 775px;
     top: 40px;
     z-index: -1;
     justify-content: center;
@@ -43,25 +44,7 @@ main {
     align-items: center;
     position: absolute;
     bottom: 1rem;
-    right: 35.2rem;
-}
-
-.question-left {
-    cursor: pointer;
-}
-
-.question-right {
-    cursor: pointer;
-}
-
-.question-left:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
-}
-
-.question-right:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
+    right: 51rem;
 }
 
 .spg-button:hover {
@@ -69,30 +52,65 @@ main {
     transition: transform 0.3s ease;
 }
 
-.left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 4rem;
-    gap: 4rem;
-    font-size: 1.4rem;
-    margin-top: 4rem;
-    max-width: 550px;
-    font-weight: bold;
-    color: #fff;
-    rotate: -5deg;
+.spg-header {
+    position: absolute;
+    left: 180px;
+    top: 70px;
+    max-width: 500px;
+    font-size: 1.5rem;
 }
 
-.right {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-right: 1rem;
-    gap: 4rem;
-    font-size: 1.4rem;
-    margin-top: 5rem;
-    max-width: 550px;
-    font-weight: bold;
-    color: #fff;
-    rotate: 5deg;
+hr {
+    width: 220px;
+    height: 4px;
+    background-color: #fff;
+    border: none;
+}
+
+.spg-titel h3 span{
+    display: inline-block;
+    position: absolute;
+    color: white;
+    max-width: 750px;
+}
+
+.spg-titel h3 span:nth-child(1) {
+    font-size: 4.5rem;
+    transform: rotate(-12deg);
+    top: 400px;
+    left: 100px;
+}
+
+.spg-titel h3 span:nth-child(2) {
+    font-size: 4.5rem;
+    transform: rotate(-9deg);
+    top: 800px;
+    left: 110px;
+}
+
+.spg-titel h3 span:nth-child(3) {
+    font-size: 4rem;
+    top: 100px;
+    right: 30px;
+}
+
+.spg-titel h3 span:nth-child(4) {
+    font-size: 80px;
+    transform: rotate(10deg);
+    top: 360px;
+    right: 330px;
+}
+
+.spg-titel h3 span:nth-child(5) {
+    font-size: 6rem;
+    transform: rotate(-5deg);
+    top: 550px;
+    right: 250px;
+}
+
+.spg-titel h3 span:nth-child(6) {
+    font-size: 5rem;
+    transform: rotate(7deg);
+    top: 750px;
+    right: 100px;
 }
