@@ -75,7 +75,7 @@ body {
     width: 40%;
     position: absolute;
     right: 90px;
-    top: 900px;
+    top: 25vh;
   }
 
   .horizontal-scroll > article {
