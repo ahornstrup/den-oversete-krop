@@ -1,0 +1,36 @@
+@font-face {
+    font-family: baloo-2;
+    src: url(../fonts/baloo-2.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    background: #e86b6b;
+    background: radial-gradient(circle, rgba(232, 107, 107, 1) 0%, rgba(255, 212, 212, 1) 100%);
+}
+
+main img{
+    width: 500px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+main h1{
+    font-family: baloo-2;
+    font-weight: bold;
+}
+
+main h2{
+    font-family: baloo-2;
+    font-weight: 300;
+    width: 200px;
+    text-align: center;
+    
+}
