@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
-
+@font-face {
+  font-family: baloo-2;
+  src: url(../fonts/baloo-2.ttf);
+}
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +9,7 @@
 }
 
 body {
-    font-family: 'Baloo 2', cursive;
+    font-family: 'baloo-2', cursive;
     background: #F9BB94;
     background: linear-gradient(0deg, rgba(249, 187, 148, 1) 0%, rgba(235, 131, 101, 1) 50%, rgba(237, 100, 100, 1) 100%);
     overflow-x: hidden;
