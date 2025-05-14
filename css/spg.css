@@ -24,7 +24,7 @@ main {
     width: 300px;
     height: auto;
     position: absolute;
-    left: 775px;
+    translate: 200%;
     top: 40px;
     z-index: -1;
     justify-content: center;
@@ -36,15 +36,16 @@ main {
     font-weight: 600;
     border-radius: 10px;
     border: 4px solid darkred;
-    width: 350px;
-    height: 50px;
+    width: 400px;
+    height: 70px;
     text-align: center;
-    padding-top: 9px;
+    padding-top: 15px;
     cursor: pointer;
     align-items: center;
     position: absolute;
-    bottom: 1rem;
-    right: 51rem;
+    bottom: 1.5rem;
+    translate: 140%;
+    font-size: 1.3rem;
 }
 
 .spg-button:hover {
@@ -54,7 +55,7 @@ main {
 
 .spg-header {
     position: absolute;
-    left: 180px;
+    left: 100px;
     top: 70px;
     max-width: 500px;
     font-size: 1.5rem;
@@ -75,42 +76,83 @@ hr {
 }
 
 .spg-titel h3 span:nth-child(1) {
-    font-size: 4.5rem;
+    font-size: 3rem;
     transform: rotate(-12deg);
-    top: 400px;
-    left: 100px;
+    top: 300px;
+    left: 80px;
+    line-height: 5rem;
 }
 
 .spg-titel h3 span:nth-child(2) {
     font-size: 4.5rem;
-    transform: rotate(-9deg);
-    top: 800px;
-    left: 110px;
+    transform: rotate(4deg);
+    top: 600px;
+    left: 220px;
 }
 
 .spg-titel h3 span:nth-child(3) {
-    font-size: 4rem;
-    top: 100px;
-    right: 30px;
+    font-size: 3rem;
+    top: 50px;
+    right: 80px;
+    line-height: 5rem;
+    max-width: 500px;
 }
 
 .spg-titel h3 span:nth-child(4) {
-    font-size: 80px;
+    font-size: 4rem;
     transform: rotate(10deg);
-    top: 360px;
-    right: 330px;
+    top: 260px;
+    right: 170px;
 }
 
 .spg-titel h3 span:nth-child(5) {
     font-size: 6rem;
     transform: rotate(-5deg);
-    top: 550px;
-    right: 250px;
+    top: 400px;
+    right: 270px;
 }
 
 .spg-titel h3 span:nth-child(6) {
-    font-size: 5rem;
+    font-size: 3.5rem;
     transform: rotate(7deg);
-    top: 750px;
-    right: 100px;
+    top: 650px;
+    right: 50px;
+}
+
+.spg-titel h3 span:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+#hjerne {
+    height: 60px;
+    width: auto;
+    position: absolute;
+    translate: 995%;
+    top: 45px;
+}
+
+#hjerte {
+    height: 80px;
+    width: auto;
+    position: absolute;
+    translate: 1410%;
+    top: 250px;
+}
+
+#tarmsystem {
+    height: 140px;
+    width: auto;
+    position: absolute;
+    translate: 1025%;
+    top: 360px;
+}
+
+#livmoder {
+    height: 80px;
+    width: auto;
+    position: absolute;
+    translate: 1400%;
+    top: 260px;
 }
