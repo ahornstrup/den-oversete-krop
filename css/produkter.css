@@ -77,8 +77,8 @@ main h2 {
 }
 
 #tampon{
-    width: 200px;
-    left: 23%;
+    width: 220px;
+    left: 22%;
     top: 20%;
 }
 
@@ -160,20 +160,21 @@ main h2 {
     display: flex;
     flex-direction: column;
     top: 20%;
-    left: 5%;
+    left: 3%;
     position: absolute;
     text-align: center;
     line-height: 60px;
+    width: 500px;
   }
 
   .minus{
     display: flex;
     flex-direction: column;
-    right: 8%;
+    right: 5%;
     top: 20%;
     position: absolute;
     text-align: center;
-    line-height: 60px;
+    width: 500px;
   }
 
   .miljoe{
@@ -184,6 +185,7 @@ main h2 {
     top: 70%;
     text-align: center;
     align-items: center;
+    width: 400px;
   }
 
   .bedst-til{
@@ -191,7 +193,7 @@ main h2 {
     flex-direction: column;
     position: absolute;
     top: 70%;
-    left: 5%;
+    left: 3%;
     width: 400px;
     text-align: center;
     align-items: center;
@@ -214,5 +216,17 @@ main h2 {
 
   .thumb{
     width: 80px;
+    margin-bottom: 20px;
+  }
+
+  .fed{
+    font-weight: bold; 
+  }
+
+  .minus p:nth-child(3) {
+    margin-bottom: 20px;
+  }
+
+  .minus p:nth-child(2) {
     margin-bottom: 20px;
   }
