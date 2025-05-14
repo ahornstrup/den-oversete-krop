@@ -153,6 +153,7 @@ main h2 {
   .popup-tekst{
     font-family: baloo-2;
     font-size: 24px;
+    color: #4D1717;
   }
 
   .plus{
@@ -172,6 +173,7 @@ main h2 {
     top: 20%;
     position: absolute;
     text-align: center;
+    line-height: 60px;
   }
 
   .miljoe{
@@ -181,6 +183,7 @@ main h2 {
     position: absolute;
     top: 70%;
     text-align: center;
+    align-items: center;
   }
 
   .bedst-til{
@@ -191,4 +194,25 @@ main h2 {
     left: 5%;
     width: 400px;
     text-align: center;
+    align-items: center;
+  }
+
+  .plus-ikon{
+    font-weight: bolder;
+    font-size: 60px;
+  }
+
+  .minus-ikon{
+    font-weight: bolder;
+    font-size: 60px;
+  }
+
+  .leaf{
+    width: 90px;
+    margin-bottom: 20px;
+  }
+
+  .thumb{
+    width: 80px;
+    margin-bottom: 20px;
   }
