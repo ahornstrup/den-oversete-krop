@@ -79,11 +79,11 @@ body {
     display: flex;
     gap: 1.5rem;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: -18rem;
   }
   
   .valg-knap {
-    font-family: 'Baloo 2', cursive;
+    font-family: 'Baloo', cursive;
     background-color: #FFAF65;
     color: #4D1717;
     text-decoration: none;
@@ -92,6 +92,7 @@ body {
     font-size: 1.5rem;
     box-shadow: 0 4px 6px rgba(0,0,0,0.2);
     transition: transform 0.2s, background-color 0.2s;
+    
   }
   
   .valg-knap:hover {
@@ -183,3 +184,30 @@ body {
     line-height: 1.6;
     margin: 1em 0;
   }
+
+  .container {
+    position: relative;
+    height: 300px;
+    z-index: 1000;
+    top: -300px;
+    left: 70px;
+  }
+ 
+  .questionmark {
+    position: absolute;
+    top: 60px;
+    right: 30px;
+    font-size: 200px;
+    color: #ED6464;
+    font-weight: bold;
+    text-shadow:
+      -1px -1px 0 #ffffff,
+       1px -1px 0 #ffffff,
+      -1px  1px 0 #ffffff,
+       1px  1px 0 #ffffff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    z-index: 1000;
+    transform: rotate(10deg);
+  }
+  
