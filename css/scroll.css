@@ -33,7 +33,7 @@ body {
   height: 460vh;
   position: absolute;
   top: -60vh;
-  right: -30%;
+  right: -40%;
   overflow: hidden;
   pointer-events: none;
   z-index: 1;
@@ -120,16 +120,16 @@ body {
   #brain img {
     width: 260px;
     position: absolute;
-    top: 446px;
-    left: 330px;
+    top: 405px;
+    left: 190px;
     z-index: 1;
   }
 
    #brain svg {
-    width: 520px;
+    width: 490px;
     position: absolute;
-    top: 140px;
-    left: 250px;
+    top: 130px;
+    left: 120px;
     transition: transform 0.2s ease;
   }
 
@@ -185,4 +185,9 @@ body {
     top: 0;
     right: 0;
     transition: transform 2s ease-in-out;
+  }
+
+  body > .snapping {
+    flex: 0 100% 0;
+    scroll-snap-align: start;
   }
