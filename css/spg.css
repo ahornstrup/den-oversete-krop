@@ -7,7 +7,92 @@
 }
 
 body {
-    font-family: 'Baloo 2', cursive;
+    font-family: 'Baloo 2', sans-serif;
     background: #9BC5CF;
-    overflow-x: hidden;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+  
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.krop-img img {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    left: 575px;
+    top: 40px;
+    z-index: -1;
+    justify-content: center;
+}
+
+.spg-button {
+    background: lightcoral;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 4px solid darkred;
+    width: 350px;
+    height: 50px;
+    text-align: center;
+    padding-top: 9px;
+    cursor: pointer;
+    align-items: center;
+    position: absolute;
+    bottom: 1rem;
+    right: 35.2rem;
+}
+
+.question-left {
+    cursor: pointer;
+}
+
+.question-right {
+    cursor: pointer;
+}
+
+.question-left:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.question-right:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.spg-button:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4rem;
+    gap: 4rem;
+    font-size: 1.4rem;
+    margin-top: 4rem;
+    max-width: 550px;
+    font-weight: bold;
+    color: #fff;
+    rotate: -5deg;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 1rem;
+    gap: 4rem;
+    font-size: 1.4rem;
+    margin-top: 5rem;
+    max-width: 550px;
+    font-weight: bold;
+    color: #fff;
+    rotate: 5deg;
 }
