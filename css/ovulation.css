@@ -12,44 +12,24 @@
 html, body{
     height: 100%;
     background: #e86b6b;
-    background: radial-gradient(circle, rgba(232, 107, 107, 1) 0%, rgba(255, 212, 212, 1) 100%);
+    background: radial-gradient(circle, rgb(177, 231, 240) 0%, rgba(255, 212, 212, 1) 100%);
 }
 
-
 main img{
-    width: 580px;
+    width: 900px;
     position: absolute;
-    top: 25%;
-    left: 10%;
+    transform: translate(-50%, 10%);
+    left: 50%;
 }
 
 main h1{
     font-family: baloo-2;
     font-weight: bold;
     position: absolute;
-    right: 10%;
-    top: 56%;
-    font-size: 80px;
+    left: 20%;
+    top: 2%;
+    font-size: 50px;
     color: #4D1717;
-}
-
-main h2{
-    font-family: baloo-2;
-    font-weight: 300;
-    width: 450px;
-    color: #4D1717;
-    position: absolute;
-    right: 8%;
-    top: 72%;
-    font-size: 40px;
-    line-height: 50px;
-}
-
-#pil{
-    position: absolute;
-    top: 53%;
-    left: 42%;
-    width: 700px;
 }
 
 main h3{
