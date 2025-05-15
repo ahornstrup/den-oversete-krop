@@ -16,9 +16,9 @@ html, body{
 }
 
 main img{
-    width: 800px;
+    width: 900px;
     position: absolute;
-    transform: translate(-50%, 25%);
+    transform: translate(-50%, 10%);
     left: 50%;
 }
 
@@ -26,7 +26,7 @@ main h1{
     font-family: baloo-2;
     font-weight: bold;
     position: absolute;
-    left: 3%;
+    left: 7.5%;
     top: 56%;
     font-size: 50px;
     color: #4D1717;
@@ -38,17 +38,17 @@ main h2{
     width: 420px;
     color: #4D1717;
     position: absolute;
-    left: 3%;
-    top: 67%;
+    left: 7.5%;
+    top: 70%;
     font-size: 30px;
     line-height: 42px;
 }
 
 #pil{
     position: absolute;
-    top: 55%;
-    left: 48%;
-    width: 600px;
+    top: 25%;
+    left: 28%;
+    width: 590px;
 }
 
 
