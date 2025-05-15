@@ -34,41 +34,35 @@
             <span class="question" data-product="cat-6">Praktisk håndtering</span>
         </h3>
     </article>
+
+    <div id="overlay" onclick="lukAllePopups()"></div>
+
+    <div id="popup-cat-1" class="popup">
+        <h2 class="popup-h2">Fysiske forandringer og symptomer</h2>
+        <button onclick="lukAllePopups()">Luk</button>
+    
+        <section class="popup-tekst">
+            <article class="spg">
+                <h3>Gør det ondt for alle at have menstruation?</h3>
+                <p class="svar">Nej, ikke for alle. Nogle har ingen smerter, mens andre oplever kramper eller ubehag.</p>
+            </article>
+            <article class="spg">
+                <h3>Kan man blive gravid, selvom man har menstruation?</h3>
+                <p class="svar">Ja, det er muligt – især hvis man har en kort cyklus, og ægløsning sker tidligt.</p>
+            </article>
+            <article class="spg">
+                <h3>Hvorfor ændrer mit humør sig så meget under min cyklus?</h3>
+                <p class="svar">Hormonelle svingninger påvirker hjernen og kan give humørsvingninger, især før menstruationen.</p>
+            </article>
+            <article class="spg">
+                <h3>Er det normalt at føle sig mega træt eller sur lige før menstruationen?</h3>
+                <p class="svar">Ja, det er helt normalt. Det skyldes hormonændringer og kaldes ofte PMS (præmenstruelt syndrom).</p>
+            </article>
+        </section>
+    </div>
 </main>
 
 <a href="produkter.html"><article class="spg-button">Læs mere om menstruationsprodukter</article></a>
-    
-<div id="popup-bind" class="popup">
-    <h2 class="popup-h2">Bind</h2>
-    <img class="popup-img" src="img/produkter/bind.webp" alt="">
-    <button onclick="lukAllePopups()">Luk</button>
-
-    <section class="popup-tekst">
-        <section class="plus">
-            <p class="plus-ikon">+</p>
-            <p>Nemme at bruge og kræver ingen indsættelse.</p>
-            <p>Fås i mange størrelser og sugeevner.</p>
-            <p>Gode til begyndere og unge.</p>
-        </section>
-
-        <section class="minus">
-            <p class="minus-ikon">-</p>
-            <p>Skal skiftes hver 3–4 timer.</p>
-            <p>Kan føles klodsede og give irritation.</p>
-            <p>Ikke ideelle til sport eller svømning.</p>
-        </section>
-
-        <section class="miljoe">
-            <img class="leaf" src="img/produkter/leaf.svg" alt="miljø">
-            <p>Engangsbind genererer <span class="fed">meget</span> affald og nedbrydes langsomt.</p>
-        </section>
-
-        <section class="bedst-til">
-            <img class="thumb" src="img/produkter/thumb.svg" alt="tommel op">
-            <p>Bedst til når du bløder meget - da den har god sugeevne.</p>
-        </section>
-    </section>
-</div>
 
 <script src="js/spg.js"></script>
 </body>

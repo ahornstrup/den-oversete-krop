@@ -24,7 +24,8 @@ main {
     width: 300px;
     height: auto;
     position: absolute;
-    translate: 200%;
+    transform: translateX(-50%);
+    left: 50%;
     top: 40px;
     z-index: -1;
     justify-content: center;
@@ -44,7 +45,8 @@ main {
     align-items: center;
     position: absolute;
     bottom: 1.5rem;
-    translate: 139%;
+    transform: translateX(-50%);
+    left: 50%;
     font-size: 1.3rem;
 }
 
@@ -127,10 +129,11 @@ hr {
 }
 
 #hjerne {
-    height: 60px;
+    height: 55px;
     width: auto;
     position: absolute;
-    translate: 995%;
+    transform: translateX(-50%);
+    left: 50%;
     top: 45px;
 }
 
@@ -138,7 +141,8 @@ hr {
     height: 80px;
     width: auto;
     position: absolute;
-    translate: 1410%;
+    transform: translateX(-50%);
+    left: 50%;
     top: 250px;
 }
 
@@ -146,7 +150,8 @@ hr {
     height: 140px;
     width: auto;
     position: absolute;
-    translate: 1020%;
+    transform: translateX(-50%);
+    left: 50%;
     top: 350px;
 }
 
@@ -154,8 +159,9 @@ hr {
     height: 80px;
     width: auto;
     position: absolute;
-    translate: 663%;
-    top: 500px;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 502px;
 }
 
 .popup {
@@ -164,10 +170,10 @@ hr {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: #e86b6b;
-    background: radial-gradient(circle, rgba(232, 107, 107, 1) 0%, rgba(255, 212, 212, 1) 100%);
+    background: #9CC5D0;
+    background: radial-gradient(circle,  rgba(255, 212, 212, 1) 0%,rgba(156, 197, 208, 1) 50%);
     padding: 20px;
-    border: 2px solid pink;
+    border: 2px solid  rgba(255, 212, 212, 1);
     z-index: 1000;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
     width: 1350px;
@@ -189,98 +195,31 @@ hr {
     display: flex;
     justify-content: center;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 40px;
     position: absolute;
     transform: translateX(-50%);
     left: 50%;
-    top: 3%;
+    top: 60px;
   }  
 
-  .popup-img{
-    position: absolute;
-    transform: translateX(-50%);
-    left: 50%;
-    width: 350px;
-    bottom: 0;
-  }
-
   .popup-tekst{
-    font-family: baloo-2;
+    font-family: 'Baloo 2', sans-serif;
     font-size: 24px;
-    color: #4D1717;
-  }
-
-  .plus{
-    display: flex;
-    flex-direction: column;
-    top: 20%;
-    left: 3%;
     position: absolute;
+    top: 200px;
+    left: 75px;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px 200px;
     text-align: center;
-    line-height: 60px;
-    width: 500px;
   }
 
-  .minus{
-    display: flex;
-    flex-direction: column;
-    right: 5%;
-    top: 20%;
-    position: absolute;
-    text-align: center;
-    width: 470px;
-  }
+.spg {
+    max-width: 500px;
+}
 
-  .miljoe{
-    display: flex;
-    flex-direction: column;
-    right: 5%;
-    position: absolute;
-    top: 70%;
-    text-align: center;
-    align-items: center;
-    width: 400px;
-  }
-
-  .bedst-til{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 70%;
-    left: 3%;
-    width: 400px;
-    text-align: center;
-    align-items: center;
-  }
-
-  .plus-ikon{
-    font-weight: bolder;
-    font-size: 60px;
-  }
-
-  .minus-ikon{
-    font-weight: bolder;
-    font-size: 60px;
-  }
-
-  .leaf{
-    width: 90px;
-    margin-bottom: 20px;
-  }
-
-  .thumb{
-    width: 80px;
-    margin-bottom: 20px;
-  }
-
-  .fed{
-    font-weight: bold; 
-  }
-
-  .minus p:nth-child(3) {
-    margin-bottom: 20px;
-  }
-
-  .minus p:nth-child(2) {
-    margin-bottom: 20px;
-  }
+.spg h3 {
+    line-height: 2.2rem;
+    margin-bottom: 5px;
+}
