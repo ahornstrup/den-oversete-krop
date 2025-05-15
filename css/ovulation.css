@@ -32,6 +32,13 @@ main h1{
     color: #4D1717;
 }
 
+main video{
+    width: 1200px;
+    position: absolute;
+    transform: translate(-50%, -16%);
+    left: 50%;
+}
+
 main h3{
     color: white;
     text-shadow: 2px 2px 8px #aa3c4c;
@@ -57,4 +64,34 @@ main h3{
       transform: scale(1);
       text-shadow: 2px 2px 8px #aa3c4c;
     }
+  }
+
+  .fullscreen-link {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+  }
+
+  #info-1{
+    position: absolute;
+    left: 71.5%;
+    top: 30%;
+    width: 70px;
+  }
+
+  #info-2-3{
+    position: absolute;
+    left: 35%;
+    top: 27%;
+    width: 45px;
+  }
+
+  #info-4{
+    position: absolute;
+    left: 27.5%;
+    top: 24.3%;
+    width: 38px;
   }

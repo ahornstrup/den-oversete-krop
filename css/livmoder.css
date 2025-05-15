@@ -78,3 +78,13 @@ main h3{
       text-shadow: 2px 2px 8px #aa3c4c;
     }
   }
+
+  .fullscreen-link {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+  }
+  
