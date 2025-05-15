@@ -18,25 +18,58 @@
         <img src="img/krop.png" alt="krop" class="body-image"/>
     </article>
     <article class="kropsdele">
-        <img src="img/hjerne-front.webp" alt="hjerne" id="hjerne">
-        <img src="img/hjerte.png" alt="hjerte" id="hjerte">
-        <img src="img/tarmsystem.webp" alt="tarmsystem" id="tarmsystem">
-        <img src="img/flow.webp" alt="livmoder" id="livmoder">
+        <a href="index.html#brain"><img src="img/hjerne-front.webp" alt="hjerne" id="hjerne"></a>
+        <a href="index.html#heart"><img src="img/hjerte.png" alt="hjerte" id="hjerte"></a>
+        <a href="index.html#stomach"><img src="img/tarmsystem.webp" alt="tarmsystem" id="tarmsystem"></a>
+        <a href="index.html#uterus"><img src="img/flow.webp" alt="livmoder" id="livmoder"></a>
     </article>
 <main>
     <article class="spg-titel">
         <h3>
-            <span>Fysiske forandringer og symptomer</span>
-            <span>Hverdag</span>
-            <span>Følelsesmæssige og psykologiske aspekter</span>
-            <span>Kulturelle</span>
-            <span>Myter</span>
-            <span>Praktisk håndtering</span>
+            <span class="question" data-product="cat-1">Fysiske forandringer og symptomer</span>
+            <span class="question" data-product="cat-2">Hverdag</span>
+            <span class="question" data-product="cat-3">Følelsesmæssige og psykologiske aspekter</span>
+            <span class="question" data-product="cat-4">Kulturelle</span>
+            <span class="question" data-product="cat-5">Myter</span>
+            <span class="question" data-product="cat-6">Praktisk håndtering</span>
         </h3>
     </article>
 </main>
 
-    <a href="produkter.html"><article class="spg-button">Læs mere om menstruationsprodukter</article></a>
+<a href="produkter.html"><article class="spg-button">Læs mere om menstruationsprodukter</article></a>
     
+<div id="popup-bind" class="popup">
+    <h2 class="popup-h2">Bind</h2>
+    <img class="popup-img" src="img/produkter/bind.webp" alt="">
+    <button onclick="lukAllePopups()">Luk</button>
+
+    <section class="popup-tekst">
+        <section class="plus">
+            <p class="plus-ikon">+</p>
+            <p>Nemme at bruge og kræver ingen indsættelse.</p>
+            <p>Fås i mange størrelser og sugeevner.</p>
+            <p>Gode til begyndere og unge.</p>
+        </section>
+
+        <section class="minus">
+            <p class="minus-ikon">-</p>
+            <p>Skal skiftes hver 3–4 timer.</p>
+            <p>Kan føles klodsede og give irritation.</p>
+            <p>Ikke ideelle til sport eller svømning.</p>
+        </section>
+
+        <section class="miljoe">
+            <img class="leaf" src="img/produkter/leaf.svg" alt="miljø">
+            <p>Engangsbind genererer <span class="fed">meget</span> affald og nedbrydes langsomt.</p>
+        </section>
+
+        <section class="bedst-til">
+            <img class="thumb" src="img/produkter/thumb.svg" alt="tommel op">
+            <p>Bedst til når du bløder meget - da den har god sugeevne.</p>
+        </section>
+    </section>
+</div>
+
+<script src="js/spg.js"></script>
 </body>
 </html>
