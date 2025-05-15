@@ -81,7 +81,7 @@ nav {
     scroll-snap-type: y mandatory;
     gap: 2rem;
     padding: 1rem;
-    width: 35rem;        /* fast bredde */
+    width: 38rem;        /* fast bredde */
     height: 25rem;       /* fast højde */
     border-radius: 10px;
     position: absolute;
@@ -101,6 +101,42 @@ nav {
   .tarm {
     width: 34rem;
     height: auto;
+  }
+
+  h3 {
+    font-size: 100px;
+    color: #FF7A7A;
+    font-weight: bold;
+    line-height: 1; /* Reducer linjeafstanden generelt */
+    text-shadow:
+    -3px -3px 0 #ffffff,
+    3px -3px 0 #ffffff,
+   -3px  3px 0 #ffffff,
+    3px  3px 0 #ffffff;
+    margin-bottom: 0.2rem; /* Mindre afstand under h4 */
+    margin-top: 0.2rem; /* Mindre afstand under h4 */
+  }
+
+  p{
+    color: #4D1717;
+    font-family: 'Baloo', cursive;
+    font-size: 2em;
+    line-height: 1;
+    margin: 1em 0;
+  }
+
+  h4 {
+    font-size: 100px;
+    color: #9BD1EA;
+    font-weight: bold;
+    line-height: 1; /* Reducer linjeafstanden generelt */
+    text-shadow:
+    -3px -3px 0 #ffffff,
+    3px -3px 0 #ffffff,
+   -3px  3px 0 #ffffff,
+    3px  3px 0 #ffffff;
+    margin-bottom: 3rem; /* Mindre afstand under h4 */
+    margin-top: 2.5rem; /* Mindre afstand under h4 */
   }
   
 
