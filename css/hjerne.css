@@ -95,13 +95,49 @@
 }
 
 #st-tekst {
-    font-size: 120px;
+    font-size: 80px;
     font-weight: 800;
     padding-bottom: 50px;
 }
 
 #st-p {
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 500;
     margin-top: 0;
+}
+
+.tegn {
+    font-size: 220px;
+    position: absolute;
+    top: 10px;
+    left: 520px;
+    transform: rotate(-15deg);
+}
+
+.tegn:nth-child(4) {
+    font-size: 370px;
+    top: 10px;
+    left: 600px;
+    transform: rotate(15deg);
+    -webkit-text-stroke: 10px white;
+}
+
+.pink {
+    color: #e5007e;
+}
+
+.orange {
+    color: #f8b133;
+}
+
+.green {
+    color: #93c01f;
+}
+
+.yellow {
+    color: #ffec00;
+}
+
+.blue {
+    color: #35a8e0;
 }
