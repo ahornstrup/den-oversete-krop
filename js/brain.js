@@ -16,6 +16,8 @@ document.addEventListener("DOMContentLoaded", function () {
           <h1 id="st-tekst">Anterior Cingulate Cortex</h1>
           <p id="st-p">Denne del føler smerte..</p>
           <p id="st-p">Når PMS er på spil, kan selv små ting føles værre.</p>
+          <h4 class="tegn pink">⚡</h4>
+          <h4 class="tegn">⚡</h4>
         `;
       });
 
@@ -24,6 +26,8 @@ document.addEventListener("DOMContentLoaded", function () {
           <h1 id="st-tekst">Præfrontal Cortex</h1>
           <p id="st-p">Denne del hjælper dig med at tænke og planlægge.</p>
           <p id="st-p">Under PMS kan den være træt - så du bliver let forvirret.</p>
+          <h4 class="tegn blue">?</h4>
+          <h4 class="tegn">?</h4>
         `;
       });
 
@@ -32,6 +36,8 @@ document.addEventListener("DOMContentLoaded", function () {
           <h1 id="st-tekst">Hypothalamus</h1>
           <p id="st-p">Denne del styrer kroppens hormoner og døgnrytme.</p>
     <p id="st-p">Under PMS kan den blive påvirket, så du føler dig træt, sulten eller har svært ved at sove.</p>
+          <h4 class="tegn orange">💤</h4>
+          <h4 class="tegn">💤</h4>
         `;
       });
 
@@ -40,6 +46,8 @@ document.addEventListener("DOMContentLoaded", function () {
           <h1 id="st-tekst">Amygdala</h1>
           <p id="st-p">Denne del reagerer på følelser.</p>
           <p id="st-p">Den bliver lidt skør under PMS - og så kan man føle mere end normalt.</p>
+          <h4 class="tegn yellow">!</h4>
+          <h4 class="tegn">!</h4>
         `;
       });
 
@@ -48,6 +56,8 @@ document.addEventListener("DOMContentLoaded", function () {
           <h1 id="st-tekst">Hippocampus</h1>
           <p id="st-p">Denne del husker ting. </p>
           <p id="st-p">PMS kan gøre det  sværere at huske og forstå følelser.</p>
+          <h4 class="tegn green">?</h4>
+          <h4 class="tegn">?</h4>
         `;
       });
 
