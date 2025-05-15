@@ -16,40 +16,42 @@ html, body{
 }
 
 main img{
-    width: 580px;
+    width: 900px;
     position: absolute;
-    top: 25%;
-    left: 10%;
+    transform: translate(-50%, 10%);
+    left: 50%;
 }
 
 main h1{
     font-family: baloo-2;
     font-weight: bold;
     position: absolute;
-    right: 10%;
+    left: 7.5%;
     top: 56%;
-    font-size: 80px;
+    font-size: 50px;
     color: #4D1717;
 }
 
 main h2{
     font-family: baloo-2;
     font-weight: 300;
-    width: 450px;
+    width: 420px;
     color: #4D1717;
     position: absolute;
-    right: 8%;
-    top: 72%;
-    font-size: 40px;
-    line-height: 50px;
+    left: 7.5%;
+    top: 70%;
+    font-size: 30px;
+    line-height: 42px;
 }
 
 #pil{
     position: absolute;
-    top: 53%;
-    left: 42%;
-    width: 700px;
+    top: 25%;
+    left: 28%;
+    width: 590px;
 }
+
+
 
 main h3{
     color: white;
