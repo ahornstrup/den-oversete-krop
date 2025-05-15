@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+
+
+
+body {
+    font-family: 'Baloo';
+    background-color: white;
+    color: black;
+    overflow-x: hidden;
+    background: linear-gradient(135deg,#FFE2B6,#FFE2B6, #FB809B );
+    overflow: hidden;
+}
+nav {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  nav button {
+    font-family: 'Baloo 2', cursive;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background: #ffffff;
+    color: #2e2e2e;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+  }
+
+  .button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: black;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    transition: background-color 0.2s ease;
+    z-index: 1000;
+  }
+  
+  .button-link:hover {
+    background-color: #ffffff;
+  }
+
+  .billede-wrapper {
+    position: relative;
+    width: 140rem; /* fast bredde, så billederne har samme ramme */
+    height: auto;
+  }
+  
+  .bloat, .bloat1 {
+    position: absolute;
+    top: -65rem;
+    left: -45rem;
+    width: 100%;   /* fylder hele wrapperen */
+    height: auto;
+  }
+  
+  .bloat {
+    z-index: 1;
+  }
+  
+  .bloat1 {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    z-index: 2;
+  }
+
+  .vertical-scroll {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    gap: 2rem;
+    padding: 1rem;
+    width: 35rem;        /* fast bredde */
+    height: 25rem;       /* fast højde */
+    border-radius: 10px;
+    position: absolute;
+    top: 10rem;
+    right: 5rem;
+    z-index: 10;
+  }
+  
+  .vertical-scroll > article {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    width: 100%;
+    border-radius: 8px;
+    padding: 1rem;
+  }
+
+  .tarm {
+    width: 34rem;
+    height: auto;
+  }
+  
+
+ 
+  
+  
+  
+ 
+  
+ 
+  
+ 
+  
+
