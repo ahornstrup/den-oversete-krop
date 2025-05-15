@@ -8,7 +8,7 @@ body {
     color: black;
     overflow-x: hidden;
     background: linear-gradient(135deg,#FFE2B6,#FFE2B6, #FB809B );
-    
+    overflow: hidden;
 }
 nav {
     position: absolute;
@@ -52,14 +52,14 @@ nav {
 
   .billede-wrapper {
     position: relative;
-    width: 110rem; /* fast bredde, så billederne har samme ramme */
+    width: 130rem; /* fast bredde, så billederne har samme ramme */
     height: auto;
   }
   
   .bloat, .bloat1 {
     position: absolute;
-    top: -50rem;
-    left: -30rem;
+    top: -65rem;
+    left: -40rem;
     width: 100%;   /* fylder hele wrapperen */
     height: auto;
   }
@@ -73,6 +73,33 @@ nav {
     transition: opacity 1s ease-in-out;
     z-index: 2;
   }
+
+  .vertical-scroll {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    gap: 2rem;
+    padding: 1rem;
+    width: 35rem;        /* fast bredde */
+    height: 25rem;       /* fast højde */
+    border-radius: 10px;
+    position: absolute;
+    top: 10rem;
+    right: 5rem;
+    z-index: 10;
+  }
+  
+  .vertical-scroll > article {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    width: 100%;
+    border-radius: 8px;
+    padding: 1rem;
+  }
+  
+
+ 
   
   
   
