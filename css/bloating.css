@@ -54,11 +54,12 @@ nav {
     position: relative;
     width: 140rem; /* fast bredde, så billederne har samme ramme */
     height: auto;
+    overflow: visible; /* så mask’en ikke klipper animationen */
   }
   
   .bloat, .bloat1 {
     position: absolute;
-    top: -65rem;
+    top: -69rem;
     left: -45rem;
     width: 100%;   /* fylder hele wrapperen */
     height: auto;
@@ -72,6 +73,9 @@ nav {
     opacity: 0;
     transition: opacity 1s ease-in-out;
     z-index: 2;
+     /* Mask så kun venstre del af billedet vises klart */
+  -webkit-mask-image: linear-gradient(to right, black 60%, transparent 100%);
+  mask-image: linear-gradient(to right, black 60%, transparent 100%);
   }
 
   .vertical-scroll {
