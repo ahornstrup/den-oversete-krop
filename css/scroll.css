@@ -189,9 +189,15 @@ body {
     transition: transform 2s ease-in-out;
   }
 
-  body > .snapping {
-    flex: 0 100% 0;
-    scroll-snap-align: start;
+.snappy {
+    scroll-snap-type: y mandatory; /* vertical scroll snapping */
+    overflow-y: scroll;            /* vertical scroll */
+    height: 100vh;
+  }
+
+.snapping {
+    scroll-snap-align: start;  /* snap to the top of the section */
+    height: 100vh; 
   }
 
   #fixedNavButton {
