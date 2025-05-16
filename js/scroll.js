@@ -63,6 +63,37 @@ document.addEventListener("DOMContentLoaded", () => {
 
 });
 
+let lastScrollY = window.scrollY;
+
+window.addEventListener('wheel', (e) => {
+  if (e.deltaY < 0) {
+    // Trying to scroll up
+    e.preventDefault();
+    window.scrollTo(0, lastScrollY);
+  } else {
+    lastScrollY = window.scrollY;
+  }
+}, { passive: false });
+
+// For touch devices
+let touchStartY = 0;
+
+window.addEventListener('touchstart', (e) => {
+  touchStartY = e.touches[0].clientY;
+}, { passive: false });
+
+window.addEventListener('touchmove', (e) => {
+  const touchCurrentY = e.touches[0].clientY;
+  if (touchCurrentY > touchStartY) {
+    // Scrolling up
+    e.preventDefault();
+    window.scrollTo(0, lastScrollY);
+  } else {
+    lastScrollY = window.scrollY;
+  }
+}, { passive: false });
+
+
 
  /*
  document.addEventListener("DOMContentLoaded", () => {
