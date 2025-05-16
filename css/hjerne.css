@@ -16,8 +16,8 @@
 .hjerne-tekst h1 span:nth-child(1) {
     font-size: 140px;
     transform: rotate(-18deg);
-    top: 40px;
-    right: 810px;
+    top: 50px;
+    right: 850px;
 }
 
 .hjerne-tekst h1 span:nth-child(2) {
@@ -64,7 +64,7 @@
 .hjerne-tekst h1 span:nth-child(8) {
     font-size: 130px;
     transform: rotate(4deg);
-    top: 400px;
+    top: 380px;
     right: 520px;
 }
 
