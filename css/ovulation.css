@@ -83,10 +83,17 @@ main h3{
     width: 70px;
   }
 
-  #info-2-3{
+  #info-2{
     position: absolute;
-    left: 35%;
-    top: 27%;
+    left: 33%;
+    top: 29%;
+    width: 45px;
+  }
+
+  #info-3{
+    position: absolute;
+    left: 33%;
+    top: 38%;
     width: 45px;
   }
 
@@ -116,4 +123,61 @@ main h3{
     left: 60vw; /* Ind til synlig placering på skærmen */
   }
   
+  #infotekst-2 {
+    position: absolute;
+    top: 74%;
+    width: 400px;
+    left: -100vw; /* Start helt ude til venstre for skærmen */
+    transition: left 0.8s ease;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: white;
+    background: #4D1717;
+    border-radius: 10px;
+    z-index: 999;
+    font-family: baloo-2;
+  }
   
+  #infotekst-2.aktiv {
+    left: 15vw; /* Ind til synlig placering på skærmen */
+  }
+  
+  #infotekst-3 {
+    position: absolute;
+    bottom: -100px; /* Start uden for skærmen */
+    left: 30%;
+    transform: translateX(-50%) translateY(100vh); /* Start under skærmen */
+    transition: transform 0.6s ease;
+    width: 400px;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: white;
+    background: #4D1717;
+    border-radius: 10px;
+    z-index: 999;
+    font-family: baloo-2;
+  }
+  
+  #infotekst-3.aktiv {
+    transform: translateX(-50%) translateY(-105%); /* Flyt op på sin plads */
+  }
+  
+
+  #infotekst-4 {
+    position: absolute;
+    top: 74%;
+    width: 400px;
+    left: -100vw; /* Start helt ude til venstre for skærmen */
+    transition: left 0.8s ease;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: white;
+    background: #1D719A;
+    border-radius: 10px;
+    z-index: 999;
+    font-family: baloo-2;
+  }
+  
+  #infotekst-4.aktiv {
+    left: 4vw; /* Ind til synlig placering på skærmen */
+  }
