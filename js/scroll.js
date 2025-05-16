@@ -94,7 +94,6 @@ window.addEventListener('touchmove', (e) => {
 }, { passive: false });
 
 
-
  /*
  document.addEventListener("DOMContentLoaded", () => {
      const video = document.getElementById("krop-video");
@@ -135,7 +134,3 @@ window.addEventListener('touchmove', (e) => {
    */
   
    
-
-  
-
-
