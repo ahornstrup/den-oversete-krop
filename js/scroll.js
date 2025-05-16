@@ -7,6 +7,64 @@
  let krop = document.getElementById("krop-video");
  let krop_reverse = document.getElementById("krop-video-reverse");
 
+document.addEventListener("DOMContentLoaded", () => {
+  const brainSection = document.getElementById("brain");
+  const heartSection = document.getElementById("heart");
+  const stomachSection = document.getElementById("stomach");
+  const uterusSection = document.getElementById("uterus");
+
+  const krop = document.getElementById("krop-video");
+  const krop_reverse = document.getElementById("krop-video-reverse");
+
+  let hasPlayed = false;
+
+  const stomachObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting && !hasPlayed) {
+          krop.play();
+          krop.style.transform = `scale(1) translateY(-1400px)`;
+          hasPlayed = true;
+        }
+      });
+    },
+    { threshold: 0.5 }
+  );
+
+  stomachObserver.observe(stomachSection);
+
+
+  const heartObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          krop.style.transform = `scale(1.1) translateY(-700px)`;
+        }
+      });
+    },
+    { threshold: 0.01 }
+  );
+
+  heartObserver.observe(heartSection);
+
+
+  const uterusObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          krop.style.transform = `scale(1) translateY(-1800px)`;
+        }
+      });
+    },
+    { threshold: 0.5 }
+  );
+
+  uterusObserver.observe(uterusSection);
+
+});
+
+
+ /*
  document.addEventListener("DOMContentLoaded", () => {
      const video = document.getElementById("krop-video");
      let hasPlayed = false;
@@ -42,6 +100,9 @@
        }
      });
    });
+
+   */
+  
    
 
   
