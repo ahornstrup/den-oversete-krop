@@ -223,3 +223,29 @@ hr {
     line-height: 2.2rem;
     margin-bottom: 5px;
 }
+
+#red-bubble {
+    width: 600px;
+    height: 600px;
+    border-radius: 1000px;
+    background: #d27272;
+    filter: blur(100px);
+    position: absolute;
+    top: 200px;
+    left: 0;
+    transition: transform 2s ease-in-out;
+    z-index: -1;
+  }
+
+  #orange-bubble {
+    width: 600px;
+    height: 600px;
+    border-radius: 1000px;
+    background: #f0b67f;
+    filter: blur(100px);
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: transform 2s ease-in-out;
+    z-index: -1;
+  }
