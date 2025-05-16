@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
         newDiv.innerHTML = `
           <h1 id="st-tekst">Hippocampus</h1>
           <p id="st-p">Denne del husker ting. </p>
-          <p id="st-p">PMS kan gøre det  sværere at huske og forstå følelser.</p>
+          <p id="st-p">PMS kan gøre det sværere at huske og forstå følelser.</p>
           <h4 class="tegn green">?</h4>
           <h4 class="tegn">?</h4>
         `;

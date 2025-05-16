@@ -1,8 +1,6 @@
 
 
 #heart-image {
-    opacity: 0;
-    transition: opacity 2s;
     transition: 0.3s;
     width: 210px;
     position: absolute;
