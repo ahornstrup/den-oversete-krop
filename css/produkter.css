@@ -78,7 +78,7 @@ main h2 {
 
 #tampon{
     width: 220px;
-    left: 22%;
+    left: 46%;
     top: 20%;
 }
 
@@ -97,7 +97,7 @@ main h2 {
 #indlaeg{
     width: 260px;
     bottom: 5%;
-    left: 36%;
+    left: 28%;
 }
 
 #kop{
@@ -231,4 +231,20 @@ main h2 {
 
   .minus p:nth-child(2) {
     margin-bottom: 20px;
+  }
+
+  button {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Baloo';
+    border: none;
+    padding: 0.1rem 0.2rem;
+  }
+  
+  .popup-img-tampon{
+    position: absolute;
+    transform: translateX(-50%);
+    left: 10rem;
+    width: 350px;
+    bottom: 0;
   }
