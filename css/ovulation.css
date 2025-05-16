@@ -16,13 +16,6 @@ html, body{
     overflow-x: hidden;
 }
 
-main img{
-    width: 900px;
-    position: absolute;
-    transform: translate(-50%, 10%);
-    left: 50%;
-}
-
 main h1{
     font-family: baloo-2;
     font-weight: bold;
@@ -65,15 +58,6 @@ main h3{
       transform: scale(1);
       text-shadow: 2px 2px 8px #aa3c4c;
     }
-  }
-
-  .fullscreen-link {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: 1000;
   }
 
   #info-1{
