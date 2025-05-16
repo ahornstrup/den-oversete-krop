@@ -12,8 +12,7 @@ body {
     font-family: 'baloo-2', cursive;
     background: #F9BB94;
     background: linear-gradient(0deg, rgba(249, 187, 148, 1) 0%, rgba(235, 131, 101, 1) 50%, rgba(237, 100, 100, 1) 100%);
-    overflow-x: hidden;
-    overflow-y: hidden;
+    overflow: hidden;
 }
 
 .tekst {
@@ -116,6 +115,7 @@ body {
     width: 100%;
     z-index: 1000;
     position: relative;
+    overflow: hidden;
   }
 
   #brain .tekst {
@@ -200,7 +200,7 @@ body {
 
 .snapping {
     scroll-snap-align: start;  /* snap to the top of the section */
-    height: 100vh; 
+    height: 100vh;
   }
 
   #fixedNavButton {
