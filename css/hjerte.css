@@ -7,3 +7,17 @@
     left: 220px;
     top: 250px;
 }
+
+@keyframes pulse-scale {
+    0%   { transform: scale(1); }
+    50%  { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+  
+  #heart-image.pulsing {
+    animation: pulse-scale 1s infinite ease-in-out;
+  }
+
+  #heart-image.pulsing-fast {
+    animation: pulse-scale 0.3s infinite ease-in-out;
+  }

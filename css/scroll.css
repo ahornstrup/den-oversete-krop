@@ -72,6 +72,7 @@ body {
 
   .horizontal-scroll {
     display: flex;
+    align-items: center;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     gap: 20rem;
@@ -79,7 +80,7 @@ body {
     width: 40%;
     position: absolute;
     right: 90px;
-    top: 25vh;
+    height: 100vh;
   }
 
   .horizontal-scroll > article {
@@ -91,7 +92,7 @@ body {
     flex-direction: column;
     gap: 1.4rem;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 500;
     color: #fff;
   }
@@ -220,3 +221,5 @@ body {
   #fixedNavButton:hover {
     background-color: rgba(249, 187, 148, 1);
   }
+
+  

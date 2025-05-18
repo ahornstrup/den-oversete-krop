@@ -14,3 +14,30 @@ let heart = document.getElementById("heart-image");
        } 
      });
    });
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const firstButton = document.querySelector('.circle-button:nth-of-type(1)');
+  const heartImage = document.getElementById('heart-image');
+
+  firstButton.addEventListener('mouseenter', () => {
+    heartImage.classList.add('pulsing');
+  });
+
+  firstButton.addEventListener('mouseleave', () => {
+    heartImage.classList.remove('pulsing');
+  });
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  const firstButton = document.querySelector('.circle-button:nth-of-type(2)');
+  const heartImage = document.getElementById('heart-image');
+
+  firstButton.addEventListener('mouseenter', () => {
+    heartImage.classList.add('pulsing-fast');
+  });
+
+  firstButton.addEventListener('mouseleave', () => {
+    heartImage.classList.remove('pulsing-fast');
+  });
+});
