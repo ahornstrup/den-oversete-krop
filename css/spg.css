@@ -24,8 +24,6 @@ main {
     width: 300px;
     height: auto;
     position: absolute;
-    transform: translateX(-50%);
-    left: 50%;
     top: 40px;
     z-index: -1;
     justify-content: center;
@@ -62,6 +60,12 @@ main {
     font-size: 1.5rem;
 }
 
+.spg-header h2 {
+    line-height: 3rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
 hr {
     width: 220px;
     height: 4px;
@@ -81,7 +85,7 @@ hr {
     transform: rotate(-12deg);
     top: 350px;
     left: 80px;
-    line-height: 5rem;
+    line-height: 3rem;
     max-width: 500px;
 }
 
@@ -96,7 +100,7 @@ hr {
     font-size: 3rem;
     top: 50px;
     right: 80px;
-    line-height: 5rem;
+    line-height: 3rem;
     max-width: 500px;
 }
 
@@ -252,4 +256,6 @@ hr {
 
   .krop-img {
     opacity: 0.5;
+    display: flex;
+    justify-content: center;
   }
