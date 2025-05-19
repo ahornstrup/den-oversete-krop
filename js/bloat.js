@@ -5,11 +5,7 @@ window.addEventListener('DOMContentLoaded', () => {
   
       img.animate([
         // starter langt ude til venstre og helt gennemsigtig
-        { transform: 'translateX(-20px)', opacity: 0, offset: 0.2 },
-        // glider ind på plads mens den gradvist bliver synlig
-        { transform: 'translateX(0)',      opacity: 0.2, offset: 0.8 },
-        // lille overshoot når den allerede er helt synlig
-        { transform: 'translateX(10px)',   opacity: 0,   offset: 0.8 },
+        { transform: 'translateX(0px)', opacity: 0, offset: 0 },
         // lander tilbage på plads
         { transform: 'translateX(0)',      opacity: 1,   offset: 1   }
       ], {

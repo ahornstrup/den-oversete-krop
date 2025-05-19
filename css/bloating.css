@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
-
+@font-face {
+  font-family: baloo-2;
+  src: url(../fonts/baloo-2.ttf);
+}
 
 
 body {
-    font-family: 'Baloo';
+  font-family: 'baloo-2', cursive;
     background-color: white;
     color: black;
     overflow-x: hidden;
@@ -20,7 +22,6 @@ nav {
   }
   
   nav button {
-    font-family: 'Baloo 2', cursive;
     font-size: 16px;
     padding: 10px 20px;
     border: none;
@@ -123,7 +124,6 @@ nav {
 
   p{
     color: #4D1717;
-    font-family: 'Baloo', cursive;
     font-size: 2em;
     line-height: 1;
     margin: 1em 0;
