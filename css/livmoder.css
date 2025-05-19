@@ -16,14 +16,14 @@ html, body{
 }
 
 
-main img{
+.uterus-article img{
     width: 580px;
     position: absolute;
     top: 25%;
     left: 10%;
 }
 
-main h1{
+.uterus-article h1{
     font-family: baloo-2;
     font-weight: bold;
     position: absolute;
@@ -33,7 +33,7 @@ main h1{
     color: #4D1717;
 }
 
-main h2{
+.uterus-article h2{
     font-family: baloo-2;
     font-weight: 300;
     width: 450px;
@@ -48,11 +48,11 @@ main h2{
 #pil{
     position: absolute;
     top: 53%;
-    left: 42%;
+    left: 28%;
     width: 700px;
 }
 
-main h3{
+.uterus-article h3{
     color: white;
     text-shadow: 2px 2px 8px #aa3c4c;
     font-family: baloo-2;
