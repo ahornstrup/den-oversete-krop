@@ -128,20 +128,18 @@ hr {
 }
 
 #hjerne {
-    height: 55px;
+    height: 60px;
     width: auto;
     position: absolute;
     transform: translateX(-50%);
-    left: 50%;
-    top: 45px;
+    top: 50px;
 }
 
 #hjerte {
-    height: 80px;
+    height: 60px;
     width: auto;
     position: absolute;
     transform: translateX(-50%);
-    left: 50%;
     top: 250px;
 }
 
@@ -150,7 +148,6 @@ hr {
     width: auto;
     position: absolute;
     transform: translateX(-50%);
-    left: 50%;
     top: 350px;
 }
 
@@ -159,7 +156,6 @@ hr {
     width: auto;
     position: absolute;
     transform: translateX(-50%);
-    left: 50%;
     top: 502px;
 }
 
@@ -247,4 +243,13 @@ hr {
     right: 0;
     transition: transform 2s ease-in-out;
     z-index: -1;
+  }
+
+  .kropsdele {
+    display: flex;
+    justify-content: center;
+  }
+
+  .krop-img {
+    opacity: 0.5;
   }
