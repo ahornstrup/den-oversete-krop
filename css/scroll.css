@@ -222,4 +222,7 @@ body {
     background-color: rgba(249, 187, 148, 1);
   }
 
-  
+  .stomach .horizontal-scroll .info {
+    text-align: left;
+    gap: 0;
+  }
