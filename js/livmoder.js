@@ -1,40 +1,39 @@
 "use strict";
 
 document.addEventListener("DOMContentLoaded", function () {
+  const newDiv = document.getElementById("uterus");
+  const krop = document.getElementById("krop-video");
 
-    
-      const uterus = document.getElementById("livmoder");
-      const uterusTwo = document.getElementById("uterustwo");
-      const uterusThird = document.getElementById("uterusthird");
+  newDiv.addEventListener("click", function (event) {
+    const clickedId = event.target.closest("article")?.id;
 
-      const newDiv = document.getElementById("uterus");
-
-      uterus.addEventListener("click", function () {
-        newDiv.innerHTML = `
-          <article class="uterus-img" id="uterustwo">
+    if (clickedId === "livmoder") {
+      newDiv.innerHTML = `
+        <article class="livmoder" id="uterustwo">
+            <article class="uterus-img">
               <img src="img/flow.webp" alt="Livmoder">
             </article>
             <article class="uterus-article">
-              <h1>Livmoder</h1>
-              <h2>Hver måned forbereder livmoderen sig på en mulig graviditet.</h2>
-              <img id="pil" src="img/pil.svg" alt="vejledende pil">
+              <h1>Endometriet</h1>
+              <h2>Det sker ved, at slimhinden i livmoderen bliver tykkere og mere blodfyldt, så et befrugtet æg kan sætte sig fast der.</h2>
+        <img id="pil" src="img/pil-endometriet.svg" alt="vejledende pil">
             </article>
-        `;
-      });
-
-      uterusTwo.addEventListener("click", function () {
-        newDiv.innerHTML = `
-          <article class="uterus-img" id="uterusthird">
+        </article>
+      `;
+      krop.style.transform = `translateX(300px) translateY(-1800px)`;
+    } else if (clickedId === "uterustwo") {
+      newDiv.innerHTML = `
+        <article class="livmoder" id="uterusthird">
+            <article class="uterus-img">
               <img src="img/flow.webp" alt="Livmoder">
             </article>
             <article class="uterus-article">
-              <h1>Uterus</h1>
-              <h2>Hver måned forbereder livmoderen sig på en mulig graviditet.</h2>
+              <h1>Livmoderen3</h1>
+              <h2>Tredje visning</h2>
               <img id="pil" src="img/pil.svg" alt="vejledende pil">
             </article>
-        `;
-      });
-
-    });
-
-    
+        </article>
+      `;
+    }
+  });
+});
