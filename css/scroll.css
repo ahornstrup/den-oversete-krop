@@ -12,7 +12,8 @@ body {
     font-family: 'baloo-2', cursive;
     background: #F9BB94;
     background: linear-gradient(0deg, rgba(249, 187, 148, 1) 0%, rgba(235, 131, 101, 1) 50%, rgba(237, 100, 100, 1) 100%);
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .tekst {
