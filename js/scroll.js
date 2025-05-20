@@ -52,14 +52,21 @@ document.addEventListener("DOMContentLoaded", () => {
     (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          krop.play();
+          // Always apply transform
           krop.style.transform = `scale(1) translateY(-1800px)`;
-          hasPlayed = false;
+  
+          // Only play if it hasn't played yet
+          if (!hasPlayed) {
+            krop.play();
+            hasPlayed = true;
+          }
         }
       });
     },
     { threshold: 0.5 }
   );
+  
+  
 
   uterusObserver.observe(uterusSection);
 
