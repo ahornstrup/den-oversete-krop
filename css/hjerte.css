@@ -21,3 +21,39 @@
   #heart-image.pulsing-fast {
     animation: pulse-scale 0.3s infinite ease-in-out;
   }
+
+  .scroll-side {
+    position: relative;
+    bottom: 70px;
+    left: 20px;
+    width: 90px;
+    height: auto;
+    animation: moveBackAndForth 1s infinite alternate ease-in-out;
+  }
+  
+  @keyframes moveBackAndForth {
+    from {
+      left: 50;
+    }
+    to {
+      left: 100px; /* Change to how far you want it to move */
+    }
+  }
+
+  .scroll-down {
+    position: relative;
+    bottom: 70px;
+    left: 20px;
+    width: 90px;
+    height: auto;
+    animation: floatUpDown 1s infinite alternate ease-in-out;
+  }
+  
+  @keyframes floatUpDown {
+    from {
+      top: 0;
+    }
+    to {
+      top: 50px; /* Adjust the vertical range */
+    }
+  }
