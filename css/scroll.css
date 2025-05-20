@@ -307,3 +307,12 @@ body {
   #uterusthird h1 {
     text-align: center;
   }
+
+  video[src="video/menstruation.webm"] {
+    display: none;
+    width: 100%;
+    z-index: 30000;
+    position: absolute;
+    top: 0;
+  }
+  

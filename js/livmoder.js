@@ -71,7 +71,9 @@ document.addEventListener("DOMContentLoaded", function () {
     <h6>En menstruation varer i gennemsnit 3-7 dage.</h6>
         <h6>Efter blødningen starter cyklussen forfra.</h6>
 
-        <h4>se en cyklus</h4>
+        <a href="#" id="seCyklusLink"><h4>Se en cyklus</h4></a>
+        <video src="video/menstruation.webm" autoplay muted loop></video>
+
     </section>
 
     <section class="endometriose">
@@ -87,6 +89,22 @@ document.addEventListener("DOMContentLoaded", function () {
         </article>
       `;
       krop.style.transform = `scale(1.3) translateX(250px) translateY(-1300px)`;
+
+      // Wait for DOM to update and then add event listener
+setTimeout(() => {
+  const link = document.getElementById("seCyklusLink");
+  const video = newDiv.querySelector('video[src="video/menstruation.webm"]');
+
+  if (link && video) {
+    video.style.display = "none"; // Hide video initially
+
+    link.addEventListener("click", (e) => {
+      e.preventDefault();
+      video.style.display = "block";
+      video.play();
+    });
+  }
+}, 0);
 
     }
 
