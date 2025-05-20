@@ -35,7 +35,7 @@ body {
 }
 
 .video {
-  height: 460vh;
+  height: 160%;
   position: absolute;
   top: -60vh;
   right: -40%;
