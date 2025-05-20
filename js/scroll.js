@@ -21,22 +21,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let hasPlayed = false;
 
-  const stomachObserver = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting && !hasPlayed) {
-          krop.play();
-          krop.style.transform = `scale(1) translateY(-1400px)`;
-          hasPlayed = true;
-        }
-      });
-    },
-    { threshold: 0.5 }
-  );
-
-  stomachObserver.observe(stomachSection);
-
-
   const heartObserver = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
@@ -51,6 +35,22 @@ document.addEventListener("DOMContentLoaded", () => {
   );
 
   heartObserver.observe(heartSection);
+
+
+  const stomachObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting && !hasPlayed) {
+          krop.play();
+          krop.style.transform = `scale(1) translateY(-1400px)`;
+          hasPlayed = true;
+        }
+      });
+    },
+    { threshold: 0.5 }
+  );
+
+  stomachObserver.observe(stomachSection);
 
 
   const uterusObserver = new IntersectionObserver(
