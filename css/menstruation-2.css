@@ -144,3 +144,8 @@ h6{
   height: 100vh;
   z-index: 1000;
 }
+
+a{
+  text-decoration: none;
+  color: #4D1717;
+}
