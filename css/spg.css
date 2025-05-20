@@ -132,15 +132,15 @@ hr {
 }
 
 #hjerne {
-    height: 60px;
+    height: 50px;
     width: auto;
     position: absolute;
     transform: translateX(-50%);
-    top: 50px;
+    top: 45px;
 }
 
 #hjerte {
-    height: 60px;
+    height: 70px;
     width: auto;
     position: absolute;
     transform: translateX(-50%);
