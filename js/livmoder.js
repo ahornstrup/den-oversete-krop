@@ -90,21 +90,32 @@ document.addEventListener("DOMContentLoaded", function () {
       `;
       krop.style.transform = `scale(1.3) translateX(250px) translateY(-1300px)`;
 
-      // Wait for DOM to update and then add event listener
-setTimeout(() => {
-  const link = document.getElementById("seCyklusLink");
-  const video = newDiv.querySelector('video[src="video/menstruation.webm"]');
-
-  if (link && video) {
-    video.style.display = "none"; // Hide video initially
-
-    link.addEventListener("click", (e) => {
-      e.preventDefault();
-      video.style.display = "block";
-      video.play();
-    });
-  }
-}, 0);
+      setTimeout(() => {
+        const link = document.getElementById("seCyklusLink");
+        const videos = newDiv.querySelectorAll("video");
+        let video;
+      
+        // Find den rigtige video ved src
+        videos.forEach((v) => {
+          if (v.getAttribute("src") === "video/menstruation.webm") {
+            video = v;
+          }
+        });
+      
+        if (link && video) {
+          video.style.display = "none"; // skjul som udgangspunkt
+      
+          link.addEventListener("click", (e) => {
+            e.preventDefault();
+            video.style.display = "block";
+            video.load(); // Sikrer at video'en loades korrekt
+            video.play().catch((err) => {
+              console.warn("Video kunne ikke afspilles:", err);
+            });
+          });
+        }
+      }, 50); // Giv DOM'en lidt mere tid
+      
 
     }
 
