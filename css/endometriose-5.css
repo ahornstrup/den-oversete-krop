@@ -24,8 +24,8 @@ main h1{
     position: absolute;
     transform: translateX(-50%);
     left: 50%;
-    top: 3%;
-    font-size: 120px;
+    top: 2%;
+    font-size: 100px;
     color: white;
     font-weight: 900;
 }
@@ -34,7 +34,7 @@ main h2{
     position: absolute;
     transform: translateX(-50%);
     left: 50%;
-    top: 22%;
+    top: 18%;
     font-size: 40px;
     font-weight: 300;
     color: white;
@@ -42,13 +42,89 @@ main h2{
 
 main #streg{
     background: white;
-    width: 900px;
+    width: 800px;
     height: 3px;
     position: absolute;
-    top: 30%;
+    top: 25%;
     transform: translateX(-50%);
     left: 50%;
 }
+
+main #linje{
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    width: 1340px;
+    transform: translateX(-50%);
+}
+
+#piller{
+    width: 300px;
+    position: absolute;
+    top: 28%;
+    left: 5%;
+}
+
+#ipren{
+    width: 280px;
+    position: absolute;
+    top: 40%;
+    left: 28%;
+}
+
+#kanyle{
+    width: 220px;
+    position: absolute;
+    top: 38%;
+    right: 30%;
+}
+
+#support{
+    width: 220px;
+    position: absolute;
+    top: 45%;
+    right: 10%;
+}
+
+p{
+    color: white;
+}
+
+.overskrift{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.mindre{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+#p-1{
+    position: absolute;
+    top: 62%;
+    left: 5%;
+}
+
+#p-2{
+    position: absolute;
+    top: 68%;
+    left: 6.5%;
+}
+
+#p-3{
+    position: absolute;
+    top: 35%;
+    left: 30%;
+}
+
+#p-4{
+    position: absolute;
+    top: 68%;
+    left: 55%;
+}
+
 
 main h3{
     position: absolute;
@@ -58,15 +134,6 @@ main h3{
     color: white;
     text-transform: uppercase;
     cursor: pointer;
-}
-
-
-main #linje{
-    position: absolute;
-    bottom: 8%;
-    left: 50%;
-    width: 1340px;
-    transform: translateX(-50%);
 }
 
 .circle article{

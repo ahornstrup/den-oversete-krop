@@ -310,7 +310,7 @@ body {
 
   .scroll-side {
     position: relative;
-    bottom: 70px;
+    bottom: 0px;
     left: 20px;
     width: 90px;
     height: auto;
