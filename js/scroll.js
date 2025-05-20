@@ -7,6 +7,9 @@
  let krop = document.getElementById("krop-video");
  let krop_reverse = document.getElementById("krop-video-reverse");
 
+ let down = document.getElementById("scroll-down");
+
+
 document.addEventListener("DOMContentLoaded", () => {
   const brainSection = document.getElementById("brain");
   const heartSection = document.getElementById("heart");
@@ -39,6 +42,8 @@ document.addEventListener("DOMContentLoaded", () => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           krop.style.transform = `scale(1.1) translateY(-700px)`;
+          down.style.opacity = `0`;
+
         }
       });
     },

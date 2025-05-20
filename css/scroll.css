@@ -327,9 +327,6 @@ body {
   }
 
   .scroll-down {
-    position: relative;
-    bottom: 70px;
-    right: 20px;
     width: 100px;
     height: auto;
     animation: floatUpDown 1s infinite alternate ease-in-out;
@@ -342,4 +339,15 @@ body {
     to {
       top: 50px;
     }
+  }
+
+  .scroll-down-article {
+    display: flex;
+    width: 60%;
+    height: 90vh;
+    position: absolute;
+    align-items: flex-end;
+    justify-content: center;
+    z-index: 20000;
+    pointer-events: none;
   }
