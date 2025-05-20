@@ -17,7 +17,6 @@ window.addEventListener('DOMContentLoaded', () => {
   });
   
   
-  
 
   let heart = document.getElementById("heart-image");
 

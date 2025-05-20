@@ -24,7 +24,7 @@ main #kvinde{
     position: absolute;
     transform: translateX(-50%);
     left: 50%;
-    width: 430px;
+    width: 490px;
     bottom: 10%;
 }
 
@@ -84,11 +84,49 @@ main #p-4{
     right: 10%;
 }
 
+main #p-5{
+    font-size: 55px;
+    position: absolute;
+    top: 20%;
+    right: 6%;
+    font-weight: 600;
+}
+
+main #p-6{
+    font-size: 60px;
+    position: absolute;
+    top: 25%;
+    right: 26%;
+    transform: rotate(10deg);
+}
+
+main #p-7{
+    font-size: 40px;
+    position: absolute;
+    font-weight: 600;
+    top: 50%;
+    right: 8%;
+}
+
+main #p-8{
+    font-size: 60px;
+    position: absolute;
+    bottom: 33%;
+    right: 8%;
+}
+
+main #p-9{
+    font-size: 45px;
+    position: absolute;
+    bottom: 27%;
+    right: 6%;
+}
+
 main #emoji-2{
     font-size: 110px;
     position: absolute;
     top: 8%;
-    right: 26%;
+    right: 27%;
 }
 
 main h3{
