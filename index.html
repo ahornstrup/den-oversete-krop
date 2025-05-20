@@ -178,13 +178,15 @@
             <p>Hjerterytmen svinger meget gennem en kvindes månedlige cyklus</p>
             <p>Se her hvilken forskel stress og hormoner kan have på hjerterytmen</p>
             <section class="heart-buttons">
-                <button class="circle-button" onclick="handleCalmClick()">
+                <button class="circle-button" id="slow-button" onclick="handleCalmClick()">
                     Rolig, upåvirket hjertebanken
                 </button>
+                <audio id="hoverSound" src="sound/heartbeat.mp3" preload="auto"></audio>
             
-                <button class="circle-button" onclick="handleStressClick()">
+                <button class="circle-button" id="fast-button" onclick="handleStressClick()">
                     Hjertebanken påvirket af stress og hormoner
                 </button>
+                <audio id="hoverSound-fast" src="sound/fast-heartbeat.mp3" preload="auto"></audio>
             </section>
         </article>
       </section>

@@ -95,6 +95,38 @@ window.addEventListener('touchmove', (e) => {
   }
 }, { passive: false });
 
+document.addEventListener('DOMContentLoaded', () => {
+    const button = document.getElementById('slow-button');
+    const sound = document.getElementById('hoverSound');
+  
+    button.addEventListener('mouseenter', () => {
+      sound.currentTime = 0;
+      sound.play();
+    });
+
+    button.addEventListener('mouseleave', () => {
+        sound.pause();
+        sound.currentTime = 0;
+  });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const button = document.getElementById('fast-button');
+    const sound = document.getElementById('hoverSound-fast');
+  
+    button.addEventListener('mouseenter', () => {
+      sound.currentTime = 0;
+      sound.play();
+    });
+
+    button.addEventListener('mouseleave', () => {
+        sound.pause();
+        sound.currentTime = 0;
+  });
+});
+  
+  
+
 
  /*
  document.addEventListener("DOMContentLoaded", () => {
