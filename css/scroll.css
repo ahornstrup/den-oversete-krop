@@ -307,39 +307,3 @@ body {
   #uterusthird h1 {
     text-align: center;
   }
-
-  .scroll-side {
-    position: relative;
-    bottom: 70px;
-    left: 20px;
-    width: 90px;
-    height: auto;
-    animation: moveBackAndForth 1s infinite alternate ease-in-out;
-  }
-  
-  @keyframes moveBackAndForth {
-    from {
-      left: 50;
-    }
-    to {
-      left: 100px;
-    }
-  }
-
-  .scroll-down {
-    position: relative;
-    bottom: 700px;
-    right: 20px;
-    width: 100px;
-    height: auto;
-    animation: floatUpDown 1s infinite alternate ease-in-out;
-  }
-  
-  @keyframes floatUpDown {
-    from {
-      top: 0;
-    }
-    to {
-      top: 50px;
-    }
-  }
