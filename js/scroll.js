@@ -52,7 +52,9 @@ document.addEventListener("DOMContentLoaded", () => {
     (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
+          krop.play();
           krop.style.transform = `scale(1) translateY(-1800px)`;
+          hasPlayed = false;
         }
       });
     },
