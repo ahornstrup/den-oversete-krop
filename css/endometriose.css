@@ -1,0 +1,76 @@
+@font-face {
+    font-family: baloo-2;
+    src: url(../fonts/baloo-2.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+  background: #e86b6b;
+  background: radial-gradient(circle, rgb(233, 184, 123) 0%, #4D1717 100%);
+  overflow: hidden;
+}
+
+main{
+    font-family: baloo-2;
+}
+
+main #background{
+    position: absolute;
+    transform: translateX(-50%);
+    left: 48%;
+    width: 1400px;
+    top: -10%;
+}
+
+main h1{
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20%;
+    font-size: 50px;
+    color: #ED6464;
+}
+
+main h2{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 7%;
+    font-size: 100px;
+    color: #EF4747;
+}
+
+main h3{
+    position: absolute;
+    right: 4%;
+    bottom: 9%;
+    font-size: 60px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+main h4{
+    position: absolute;
+    left: 3.5%;
+    bottom: 10%;
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+main #linje{
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    width: 1340px;
+    transform: translateX(-50%);
+}

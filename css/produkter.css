@@ -64,6 +64,7 @@ main h2 {
 .produkter{
     position: absolute;
     transition: ease 0.4s;
+
 }
 
 .produkter:hover{
@@ -78,7 +79,7 @@ main h2 {
 
 #tampon{
     width: 220px;
-    left: 46%;
+    left: 40%;
     top: 20%;
 }
 
@@ -90,8 +91,8 @@ main h2 {
 
 #trusser{
     width: 300px;
-    top: 4%;
-    left: 4%;
+    top: 12%;
+    left: 12%;
 }
 
 #indlaeg{
@@ -105,6 +106,8 @@ main h2 {
     left: 55%;
     bottom: 10%;
 }
+
+/* OVERLAY -------------------------------------------------------------------------------------------- */
 
 .popup {
     display: none;
@@ -241,10 +244,9 @@ main h2 {
     padding: 0.1rem 0.2rem;
   }
   
-  .popup-img-tampon{
+  #tampon-img{
     position: absolute;
-    transform: translateX(-50%);
-    left: 10rem;
-    width: 350px;
-    bottom: 0;
+    left: 34%;
+    width: 290px;
+    top: 18%;
   }

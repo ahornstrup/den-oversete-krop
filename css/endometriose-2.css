@@ -1,0 +1,85 @@
+@font-face {
+    font-family: baloo-2;
+    src: url(../fonts/baloo-2.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+  background: #e86b6b;
+  background: radial-gradient(circle, rgb(233, 184, 123) 0%, #4D1717 100%);
+  overflow: hidden;
+}
+
+main{
+    font-family: baloo-2;
+}
+
+main #livmoder{
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 1000px;
+    bottom: 0%;
+}
+
+main p{
+    position: absolute;
+    right: 5%;
+    bottom: 20%;
+    font-size: 30px;
+    width: 420px;
+    line-height: 38px;
+    color: white;
+}
+
+main h2{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 7%;
+    font-size: 100px;
+    color: #EF4747;
+}
+
+main h3{
+    position: absolute;
+    left: 4%;
+    bottom: 9%;
+    font-size: 60px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+main #linje{
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    width: 1340px;
+    transform: translateX(-50%);
+}
+
+.circle article{
+    background: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.circle {
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+    bottom: 7%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
