@@ -20,31 +20,14 @@ main{
     font-family: baloo-2;
 }
 
-main #livmoder{
+main h1{
     position: absolute;
     transform: translateX(-50%);
     left: 50%;
-    width: 1000px;
-    bottom: 0%;
-}
-
-main p{
-    position: absolute;
-    right: 5%;
-    bottom: 20%;
-    font-size: 30px;
-    width: 420px;
-    line-height: 38px;
+    top: 3%;
+    font-size: 120px;
     color: white;
-}
-
-main h2{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 7%;
-    font-size: 100px;
-    color: #EF4747;
+    font-weight: 900;
 }
 
 main h3{
@@ -100,6 +83,6 @@ main #linje{
     right: 10%;
 }
 
-#circle-1{
+#circle-4{
     background: white;
 }

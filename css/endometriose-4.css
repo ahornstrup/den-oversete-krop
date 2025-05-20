@@ -20,31 +20,75 @@ main{
     font-family: baloo-2;
 }
 
-main #livmoder{
+main #kvinde{
     position: absolute;
     transform: translateX(-50%);
     left: 50%;
-    width: 1000px;
-    bottom: 0%;
+    width: 430px;
+    bottom: 10%;
+}
+
+main h1{
+    color: white;
+    font-size: 90px;
+    position: absolute;
+    left: 12%;
+    top: 5%;
+    text-transform: uppercase;
 }
 
 main p{
-    position: absolute;
-    right: 5%;
-    bottom: 20%;
-    font-size: 30px;
-    width: 420px;
-    line-height: 38px;
     color: white;
 }
 
-main h2{
+
+main #p-1{
+    text-align: center;
+    font-size: 30px;
+    width: 450px;
+    line-height: 35px;
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 7%;
-    font-size: 100px;
-    color: #EF4747;
+    top: 25%;
+    left: 4%;
+}
+
+main #p-2{
+    text-align: center;
+    font-size: 50px;
+    width: 60px;
+    line-height: 35px;
+    position: absolute;
+    top: 45%;
+    left: 7%;
+}
+
+main #p-3{
+    font-size: 28px;
+    line-height: 35px;
+    position: absolute;
+    top: 51%;
+    left: 13%;
+}
+
+main #emoji-1{
+    font-size: 80px;
+    position: absolute;
+    top: 49%;
+    left: 6%;
+}
+
+main #p-4{
+    font-size: 60px;
+    position: absolute;
+    top: 12%;
+    right: 10%;
+}
+
+main #emoji-2{
+    font-size: 110px;
+    position: absolute;
+    top: 8%;
+    right: 26%;
 }
 
 main h3{
@@ -56,7 +100,6 @@ main h3{
     text-transform: uppercase;
     cursor: pointer;
 }
-
 
 main #linje{
     position: absolute;
@@ -100,6 +143,6 @@ main #linje{
     right: 10%;
 }
 
-#circle-1{
+#circle-3{
     background: white;
 }

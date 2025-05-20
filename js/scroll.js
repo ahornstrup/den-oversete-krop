@@ -52,14 +52,21 @@ document.addEventListener("DOMContentLoaded", () => {
     (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          krop.play();
+          // Always apply transform
           krop.style.transform = `scale(1) translateY(-1800px)`;
-          hasPlayed = false;
+  
+          // Only play if it hasn't played yet
+          if (!hasPlayed) {
+            krop.play();
+            hasPlayed = true;
+          }
         }
       });
     },
     { threshold: 0.5 }
   );
+  
+  
 
   uterusObserver.observe(uterusSection);
 
@@ -94,6 +101,38 @@ window.addEventListener('touchmove', (e) => {
     lastScrollY = window.scrollY;
   }
 }, { passive: false });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const button = document.getElementById('slow-button');
+    const sound = document.getElementById('hoverSound');
+  
+    button.addEventListener('mouseenter', () => {
+      sound.currentTime = 0;
+      sound.play();
+    });
+
+    button.addEventListener('mouseleave', () => {
+        sound.pause();
+        sound.currentTime = 0;
+  });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const button = document.getElementById('fast-button');
+    const sound = document.getElementById('hoverSound-fast');
+  
+    button.addEventListener('mouseenter', () => {
+      sound.currentTime = 0;
+      sound.play();
+    });
+
+    button.addEventListener('mouseleave', () => {
+        sound.pause();
+        sound.currentTime = 0;
+  });
+});
+  
+  
 
 
  /*

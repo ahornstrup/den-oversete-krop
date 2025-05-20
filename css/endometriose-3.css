@@ -24,14 +24,44 @@ main #livmoder{
     position: absolute;
     transform: translateX(-50%);
     left: 50%;
-    width: 1000px;
+    width: 1390px;
     bottom: 0%;
 }
 
-main p{
+main #p-1{
     position: absolute;
     right: 5%;
-    bottom: 20%;
+    top: 40%;
+    font-size: 30px;
+    width: 420px;
+    line-height: 38px;
+    color: white;
+}
+
+main #p-2{
+    position: absolute;
+    right: 5%;
+    bottom: 25%;
+    font-size: 30px;
+    width: 420px;
+    line-height: 38px;
+    color: white;
+}
+
+main #p-3{
+    position: absolute;
+    left: 5%;
+    top: 37%;
+    font-size: 30px;
+    width: 460px;
+    line-height: 38px;
+    color: white;
+}
+
+main #p-4{
+    position: absolute;
+    left: 5%;
+    bottom: 28%;
     font-size: 30px;
     width: 420px;
     line-height: 38px;
@@ -100,6 +130,6 @@ main #linje{
     right: 10%;
 }
 
-#circle-1{
+#circle-2{
     background: white;
 }

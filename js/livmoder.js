@@ -27,7 +27,6 @@ document.addEventListener("DOMContentLoaded", function () {
              <main>
         <h1>Ægløsning</h1>
         <video src="video/image 12.webm" autoplay muted loop></video>
-        <a href="menstruation.html"><h3>Tryk videre</h3></a>
             <img id="info-1" src="img/ovu-01.svg" alt="Knap 1">
             <img id="info-2" src="img/ovu-2.svg" alt="Knap 2">
             <img id="info-3" src="img/ovu-3.svg" alt="Knap 3">
@@ -38,6 +37,52 @@ document.addEventListener("DOMContentLoaded", function () {
             <p id="infotekst-2">Ved hver menstruationscyklus modnes ét æg i en lille "bobbel" kaldet en follikel.</p>
             <p id="infotekst-3">Omkring midt i cyklussen sker ægløsning. Folliklen sprænger, og ægget frigives fra æggestokken.</p>
             <p id="infotekst-4">Ægget bliver fanget af æggelederen og begynder sin rejse mod livmoderen.</p>
+    </main>
+        </article>
+      `;
+      krop.style.transform = `scale(1.3) translateX(250px) translateY(-1300px)`;
+
+    } else if (clickedId === "uterusthird") {
+      newDiv.innerHTML = `
+        <article class="livmoder" id="uterusfourth">
+             <main>
+        <video src="video/image 12.webm" autoplay muted loop></video>
+        <article class="uterus-article fourth">
+                <h1>Menstruation</h1>
+
+              <h2>Hvis ingen befrugtning sker, går ægget til grunde og udskilles sammen med slimhinden under menstruationen.</h2>
+            </article>
+    </main>
+        </article>
+      `;
+      krop.style.transform = `scale(1.3) translateX(250px) translateY(-1300px)`;
+
+    } else if (clickedId === "uterusfourth") {
+      newDiv.innerHTML = `
+        <article class="livmoder fifth" id="uterusfifth">
+             <main>
+        <article class="uterus-img">
+              <img src="img/flow.webp" alt="Livmoder">
+            </article>
+
+            <section class="fifth-column">
+    <section class="cyklus">
+    <h5>Menstruation</h5>
+    <h6>En menstruation varer i gennemsnit 3-7 dage.</h6>
+        <h6>Efter blødningen starter cyklussen forfra.</h6>
+
+        <h4>se en cyklus</h4>
+    </section>
+
+    <section class="endometriose">
+       <section class="endometriose-tekst">
+        <h5>Ved du hvad endometriose er ?</h5>
+        <h6>(Det tror vi i hvert fald ikke)</h6>
+    </section>
+        <a href="endometriose.html"><h4>Læs om det her!</h4></a>
+    </section>
+        </section>
+
     </main>
         </article>
       `;
