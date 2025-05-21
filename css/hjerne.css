@@ -15,64 +15,53 @@
 
 .hjerne-tekst h1 span:nth-child(1) {
     font-size: 140px;
-    transform: rotate(-18deg);
-    top: 50px;
-    right: 850px;
+    top: 25px;
+    right: 450px;
+    font-weight: 800;
+
 }
 
 .hjerne-tekst h1 span:nth-child(2) {
-    font-size: 70px;
-    transform: rotate(-9deg);
-    top: 170px;
-    right: 860px;
+    font-size: 130px;
+    top: 130px;
+    right: 1070px;
+    font-weight: 800;
+
 }
 
 .hjerne-tekst h1 span:nth-child(3) {
-    font-size: 100px;
-    top: 140px;
-    right: 730px;
+    font-size: 130px;
+    top: 130px;
+    right: 480px;
+    font-weight: 800;
 }
 
 .hjerne-tekst h1 span:nth-child(4) {
-    font-size: 80px;
-    transform: rotate(10deg);
-    top: 170px;
-    right: 610px;
+    font-size: 90px;
+    top: 280px;
+    right: 820px;
+    font-weight: 500;
 }
 
 .hjerne-tekst h1 span:nth-child(5) {
-    font-size: 170px;
-    transform: rotate(-2deg);
-    top: 220px;
-    right: 750px;
+    font-size: 70px;
+    top: 295px;
+    right: 500px;
+    font-weight: 500;
 }
 
 .hjerne-tekst h1 span:nth-child(6) {
-    font-size: 100px;
-    transform: rotate(7deg);
-    top: 280px;
+    font-size: 70px;
+    top: 360px;
     right: 570px;
+    font-weight: 500;
 }
 
 .hjerne-tekst h1 span:nth-child(7) {
-    font-size: 100px;
-    transform: rotate(12deg);
-    top: 300px;
-    right: 510px;
-}
-
-.hjerne-tekst h1 span:nth-child(8) {
-    font-size: 130px;
-    transform: rotate(4deg);
-    top: 380px;
-    right: 520px;
-}
-
-.hjerne-tekst h1 span:nth-child(9) {
-    font-size: 240px;
-    transform: rotate(4deg);
-    top: 340px;
-    right: 430px;
+    font-size: 110px;
+    top: 420px;
+    right: 480px;
+    font-weight: 500;
 }
 
 .st-hover {
