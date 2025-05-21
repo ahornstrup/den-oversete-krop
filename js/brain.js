@@ -16,8 +16,8 @@ document.addEventListener("DOMContentLoaded", function () {
           <h1 id="st-tekst">Anterior Cingulate Cortex</h1>
           <p id="st-p">Denne del føler smerte..</p>
           <p id="st-p">Når PMS er på spil, kan selv små ting føles værre.</p>
-          <h4 class="tegn pink">⚡</h4>
-          <h4 class="tegn">⚡</h4>
+          <h4 class="tegn pink">!</h4>
+          <h4 class="tegn">!</h4>
         `;
       });
 
@@ -36,8 +36,8 @@ document.addEventListener("DOMContentLoaded", function () {
           <h1 id="st-tekst">Hypothalamus</h1>
           <p id="st-p">Denne del styrer kroppens hormoner og døgnrytme.</p>
     <p id="st-p">Under PMS kan den blive påvirket, så du føler dig træt, sulten eller har svært ved at sove.</p>
-          <h4 class="tegn orange">💤</h4>
-          <h4 class="tegn">💤</h4>
+          <h4 class="tegn orange">?</h4>
+          <h4 class="tegn">?</h4>
         `;
       });
 
