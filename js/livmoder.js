@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <article class="livmoder" id="uterusthird">
              <main>
         <h1>Ægløsning</h1>
-        <video src="video/image 12.webm" autoplay muted loop></video>
+        <video id="video-livmoder" src="video/image 12.webm" autoplay muted loop></video>
             <img id="info-1" src="img/ovu-01.svg" alt="Knap 1">
             <img id="info-2" src="img/ovu-2.svg" alt="Knap 2">
             <img id="info-3" src="img/ovu-3.svg" alt="Knap 3">
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
       newDiv.innerHTML = `
         <article class="livmoder" id="uterusfourth">
              <main>
-        <video src="video/image 12.webm" autoplay muted loop></video>
+        <video id="video-livmoder" src="video/image 12.webm" autoplay muted loop></video>
         <article class="uterus-article fourth">
                 <h1>Menstruation</h1>
 
@@ -57,41 +57,46 @@ document.addEventListener("DOMContentLoaded", function () {
     </main>
         </article>
       `;
-      krop.style.transform = `scale(1.3) translateX(250px) translateY(-1300px)`;
+      krop.style.transform = `scale(1.8) translateX(180px) translateY(-1000px)`;
+
+      const updatedVideo = document.getElementById("video-livmoder");
+      updatedVideo.style.transform = `scale(1.5) translateY(-200px)`;
 
     } else if (clickedId === "uterusfourth") {
       newDiv.innerHTML = `
         <article class="livmoder fifth" id="uterusfifth">
              <main>
-        <article class="uterus-img">
-              <img src="img/flow.webp" alt="Livmoder">
-            </article>
+        <video id="video-livmoder" src="video/image 12.webm" autoplay muted loop></video>
+
 
             <section class="fifth-column">
-    <section class="cyklus">
-    <h5>Menstruation</h5>
-    <h7>En menstruation varer i gennemsnit 3-7 dage.</h7>
-        <h7>Efter blødningen starter cyklussen forfra.</h7>
+            <section class="cyklus">
+            <h5>Menstruation</h5>
+            <h6>En menstruation varer i gennemsnit 3-7 dage.</h6>
+            <h6>Efter blødningen starter cyklussen forfra.</h6>
 
-        <a href="#" id="seCyklusLink"><h4>Se en cyklus</h4></a>
-        <video src="../../video/menstration.webm" autoplay muted loop></video>
+                <a href="#" id="seCyklusLink"><h4>Se en cyklus</h4></a>
+                <video src="../../video/menstration.webm" autoplay muted loop></video>
 
-    </section>
+            </section>
 
-    <section class="endometriose">
-       <section class="endometriose-tekst">
-        <h5>Ved du hvad endometriose er ?</h5>
-        <h7>(Det tror vi i hvert fald ikke)</h7>
-    </section>
-        <a href="endometriose.html"><h4>Læs om det her!</h4></a>
-    </section>
-        </section>
+            <section class="endometriose">
+              <section class="endometriose-tekst">
+                <h5>Ved du hvad endometriose er ?</h5>
+                <h6>(Det tror vi i hvert fald ikke)</h6>
+            </section>
+                <a href="endometriose.html"><h4>Læs om det her!</h4></a>
+            </section>
+                </section>
 
     </main>
         </article>
       `;
-      krop.style.transform = `scale(1.3) translateX(250px) translateY(-1300px)`;
+      krop.style.transform = `scale(1.8) translateX(180px) translateY(-1000px)`;
 
+      const updatedVideo = document.getElementById("video-livmoder");
+      updatedVideo.style.transform = `scale(1.5) translateY(-200px)`;
+      
       setTimeout(() => {
         const link = document.getElementById("seCyklusLink");
         const videos = newDiv.querySelectorAll("video");
