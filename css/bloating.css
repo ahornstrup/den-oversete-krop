@@ -170,13 +170,17 @@ nav {
 
   }
  
-  
-  
-  
- 
-  
- 
-  
- 
-  
-
+#next {
+    position: absolute;
+    bottom: 180px;
+    left: 52%;
+    background-color: #c5eafb;
+    border-radius: 8px;
+    font-family: 'baloo-2', cursive;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 2px 4px rgba(29, 46, 60, 0.2);
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1rem 2rem;
+}
