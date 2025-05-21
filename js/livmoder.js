@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const krop = document.getElementById("krop-video");
 
   newDiv.addEventListener("click", function (event) {
-    const clickedId = event.target.closest("article")?.id;
+  const clickedId = event.target.closest("article")?.id;
 
     if (clickedId === "livmoder") {
       newDiv.innerHTML = `
@@ -21,6 +21,8 @@ document.addEventListener("DOMContentLoaded", function () {
         </article>
       `;
       krop.style.transform = `translateX(300px) translateY(-1800px)`;
+
+
     } else if (clickedId === "uterustwo") {
       newDiv.innerHTML = `
         <article class="livmoder" id="uterusthird">

@@ -211,3 +211,15 @@
     position: absolute;
     top: 50%;
   }
+
+  .uterus-img {
+    position: relative;
+  }
+  
+  .uterus-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.6s ease-in-out;
+  }
+  
