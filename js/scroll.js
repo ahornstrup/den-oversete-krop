@@ -42,6 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
           krop.style.transform = `scale(1) translateY(-1400px)`;
           red.style.transform = `translateY(800px) translateX(100px)`;
           orange.style.transform = `translateY(0px) translateX(400px)`;
+          down.style.opacity = `0`;
           hasPlayed = true;
         }
       });
@@ -56,6 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           krop.style.transform = `scale(1) translateY(-1800px)`;
+          down.style.opacity = `0`;
 
           if (!hasPlayed) {
             krop.play();
