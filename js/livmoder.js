@@ -1,7 +1,7 @@
 "use strict";
 
 document.addEventListener("DOMContentLoaded", function () {
-  const newDiv = document.getElementById("uterus");
+  const newDiv = document.getElementById("uterusdiv");
   const krop = document.getElementById("krop-video");
 
   newDiv.addEventListener("click", function (event) {
