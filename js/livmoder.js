@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <h6>Efter blødningen starter cyklussen forfra.</h6>
 
         <a href="#" id="seCyklusLink"><h4>Se en cyklus</h4></a>
-        <video src="video/menstruation.webm" autoplay muted loop></video>
+        <video src="../../video/menstration.webm" autoplay muted loop></video>
 
     </section>
 
@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function () {
       
         // Find den rigtige video ved src
         videos.forEach((v) => {
-          if (v.getAttribute("src") === "video/menstruation.webm") {
+          if (v.getAttribute("src") === "../../video/menstration.webm") {
             video = v;
           }
         });

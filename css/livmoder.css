@@ -113,6 +113,14 @@
     top: 0;
     left: 0;
   }
+
+  .cyklus video {
+    z-index: 1000;
+    width: 20%;
+    height: auto;
+    position: absolute;
+    top: -310px;
+  }
   
   .endometriose h4{
     background-color: #F9C1C1;

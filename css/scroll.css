@@ -351,3 +351,15 @@ body {
     z-index: 20000;
     pointer-events: none;
   }
+
+
+  .linje {
+    height: 50vh;
+    width: 50px;
+    background: white;
+  }
+
+  .circle {
+    width: 100px;
+    height: 100px;
+  }
