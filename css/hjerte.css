@@ -33,7 +33,7 @@
   
   @keyframes moveBackAndForth {
     from {
-      left: 50;
+      left: 50px;
     }
     to {
       left: 100px; /* Change to how far you want it to move */
