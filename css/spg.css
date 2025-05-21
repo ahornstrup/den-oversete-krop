@@ -151,6 +151,7 @@ hr {
     height: 140px;
     width: auto;
     position: absolute;
+    left: 50%;
     transform: translateX(-50%);
     top: 350px;
 }
@@ -159,6 +160,7 @@ hr {
     height: 80px;
     width: auto;
     position: absolute;
+    left: 50%;
     transform: translateX(-50%);
     top: 510px;
 }
