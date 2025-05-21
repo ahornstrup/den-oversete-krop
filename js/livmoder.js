@@ -70,8 +70,8 @@ document.addEventListener("DOMContentLoaded", function () {
             <section class="fifth-column">
     <section class="cyklus">
     <h5>Menstruation</h5>
-    <h6>En menstruation varer i gennemsnit 3-7 dage.</h6>
-        <h6>Efter blødningen starter cyklussen forfra.</h6>
+    <h7>En menstruation varer i gennemsnit 3-7 dage.</h7>
+        <h7>Efter blødningen starter cyklussen forfra.</h7>
 
         <a href="#" id="seCyklusLink"><h4>Se en cyklus</h4></a>
         <video src="../../video/menstration.webm" autoplay muted loop></video>
@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <section class="endometriose">
        <section class="endometriose-tekst">
         <h5>Ved du hvad endometriose er ?</h5>
-        <h6>(Det tror vi i hvert fald ikke)</h6>
+        <h7>(Det tror vi i hvert fald ikke)</h7>
     </section>
         <a href="endometriose.html"><h4>Læs om det her!</h4></a>
     </section>
