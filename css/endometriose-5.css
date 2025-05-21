@@ -225,8 +225,8 @@ h4{
     position: absolute;
     color: white;
     bottom: 13%;
-    right: 4%;
-    font-size: 35px;
+    right: 3%;
+    font-size: 32px;
     animation: puls 1.8s ease-in-out infinite;
     cursor: pointer;
 }

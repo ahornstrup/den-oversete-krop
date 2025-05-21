@@ -106,7 +106,6 @@ main h2 {
 .produkter{
     position: absolute;
     transition: ease 0.4s;
-
 }
 
 .produkter:hover{
