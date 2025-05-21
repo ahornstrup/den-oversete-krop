@@ -32,7 +32,7 @@ html, body {
 
 #krop-video {
   height: 700vh;
-  transition: transform 0.6s ease-in-out;
+  transition: transform 0.5s ease-in-out;
   display: block;
   object-fit: cover;
 }

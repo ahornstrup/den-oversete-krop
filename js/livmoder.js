@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
       krop.style.transform = `scale(1.8) translateX(180px) translateY(-1000px)`;
 
       const updatedVideo = document.getElementById("video-livmoder");
-      updatedVideo.style.transform = `scale(1.5) translateY(-200px)`;
+      updatedVideo.style.transform = `scale(1.7) translateY(50px)`;
 
     } else if (clickedId === "uterusfourth") {
       newDiv.innerHTML = `
@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", function () {
       krop.style.transform = `scale(1.8) translateX(180px) translateY(-1000px)`;
 
       const updatedVideo = document.getElementById("video-livmoder");
-      updatedVideo.style.transform = `scale(1.5) translateY(-200px)`;
+      updatedVideo.style.transform = `scale(1.7) translateY(-200px)`;
       
       setTimeout(() => {
         const link = document.getElementById("seCyklusLink");
