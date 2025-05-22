@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const krop = document.getElementById("krop-video");
 
   newDiv.addEventListener("click", function (event) {
-  const clickedId = event.target.closest("article")?.id;
+  const clickedId = event.target.closest("article").id;
 
     if (clickedId === "livmoder") {
       newDiv.innerHTML = `
