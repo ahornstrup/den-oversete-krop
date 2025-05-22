@@ -307,11 +307,14 @@ html, body {
   }
 
   #uterustwo .uterus-article {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     position: relative;
     align-items: center;
-    gap: 0;
-    left: -400px;
-    top: -60px;
+    gap: 10px;
+    left: -300px;
+    top: -31px;
   }
 
   #uterustwo .uterus-article h1, #uterustwo .uterus-article h2 {
