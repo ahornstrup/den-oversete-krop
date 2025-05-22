@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </main>
         </article>
       `;
-      krop.style.transform = `scale(1.8) translateX(180px) translateY(-1000px)`;
+      krop.style.transform = `scale(1.8) translateX(180px) translateY(-700px)`;
 
       const updatedVideo = document.getElementById("video-livmoder");
       updatedVideo.style.transform = `scale(1.7) translateY(50px)`;
