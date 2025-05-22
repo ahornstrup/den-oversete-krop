@@ -32,3 +32,12 @@ window.addEventListener('DOMContentLoaded', () => {
         } 
       });
     });
+
+    window.addEventListener("DOMContentLoaded", () => {
+      setTimeout(() => {
+        const lyd = document.getElementById("minLyd");
+        lyd.play().catch((e) => {
+          console.warn("Lyd kunne ikke afspilles automatisk:", e);
+        });
+      }, 1000); // 1000 ms = 1 sekund
+    });
