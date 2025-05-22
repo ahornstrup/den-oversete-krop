@@ -47,7 +47,7 @@ html, body {
   overflow: hidden;
   pointer-events: none;
   z-index: 1;
-  width: 60%;
+  width: 100%;
   left: 0;
 }
 
