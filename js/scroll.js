@@ -50,6 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
           red.style.transform = `translateY(100px) translateX(100px)`;
           orange.style.transform = `translateY(0px) translateX(-400px)`;
           down.style.opacity = `0`;
+          circle1.style.backgroundColor = '#fa8787';        
           circle2.style.backgroundColor = '#fa8787';        
           circle3.style.backgroundColor = 'white';  
           hasPlayed = true;
@@ -67,6 +68,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (entry.isIntersecting) {
           krop.style.transform = `scale(1) translateY(-1800px)`;
           down.style.opacity = `0`;
+          circle1.style.backgroundColor = '#fa8787';        
           circle3.style.backgroundColor = '#fa8787';        
           circle4.style.backgroundColor = 'white';  
 
