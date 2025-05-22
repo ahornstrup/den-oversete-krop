@@ -202,8 +202,12 @@
   
   .fourth {
     position: absolute;
-    bottom: 20px;
+    bottom: 50px;
     left: -40px;
+  }
+  
+  .fourth h1 {
+    margin-bottom: -20px;
   }
 
   .fourth h1, .fourth h2 {
