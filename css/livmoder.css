@@ -35,9 +35,16 @@
 
 #pil{
     position: absolute;
-    top: 53%;
-    left: 28%;
-    width: 700px;
+    top: 50%;
+    left: 35%;
+    width: 800px;
+}
+
+#pil-2{
+  position: absolute;
+  width: 620px;
+  top: 25%;
+  left: 7%;
 }
 
 .uterus-article h3{

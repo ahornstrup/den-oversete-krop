@@ -14,11 +14,12 @@ document.addEventListener("DOMContentLoaded", function () {
               <img src="img/flow.webp" alt="Livmoder">
             </article>
             <article class="uterus-article">
-              <h1>Endometriet</h1>
+              <h1 class="endo-h1">Endometriet</h1>
               <h2>Det sker ved, at slimhinden i livmoderen bliver tykkere og mere blodfyldt, så et befrugtet æg kan sætte sig fast der.</h2>
-        <img id="pil" src="img/pil-endometriet.svg" alt="vejledende pil">
             </article>
         </article>
+
+        <img id="pil-2" src="img/pil-endometriet.svg" alt="vejledende pil">
       `;
       krop.style.transform = `translateX(300px) translateY(-1800px)`;
 
