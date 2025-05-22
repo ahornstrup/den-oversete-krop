@@ -9,6 +9,11 @@ let krop_reverse = document.getElementById("krop-video-reverse");
 
 let down = document.getElementById("scroll-down");
 
+const circle1 = document.getElementById("circle-one");
+const circle2 = document.getElementById("circle-two");
+const circle3 = document.getElementById("circle-three");
+const circle4 = document.getElementById("circle-four");
+
 document.addEventListener("DOMContentLoaded", () => {
   const brainSection = document.getElementById("brain");
   const heartSection = document.getElementById("heart");
@@ -26,6 +31,8 @@ document.addEventListener("DOMContentLoaded", () => {
           red.style.transform = `translateY(400px) translateX(400px)`;
           orange.style.transform = `translateY(200px) translateX(-600px)`;
           down.style.opacity = `0`;
+          circle1.style.backgroundColor = '#fa8787';        
+          circle2.style.backgroundColor = 'white';  
         }
       });
     },
@@ -43,6 +50,8 @@ document.addEventListener("DOMContentLoaded", () => {
           red.style.transform = `translateY(100px) translateX(100px)`;
           orange.style.transform = `translateY(0px) translateX(-400px)`;
           down.style.opacity = `0`;
+          circle2.style.backgroundColor = '#fa8787';        
+          circle3.style.backgroundColor = 'white';  
           hasPlayed = true;
         }
       });
@@ -58,6 +67,8 @@ document.addEventListener("DOMContentLoaded", () => {
         if (entry.isIntersecting) {
           krop.style.transform = `scale(1) translateY(-1800px)`;
           down.style.opacity = `0`;
+          circle3.style.backgroundColor = '#fa8787';        
+          circle4.style.backgroundColor = 'white';  
 
           if (!hasPlayed) {
             krop.play();

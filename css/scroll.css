@@ -373,15 +373,33 @@ html, body {
 
 
   .linje {
-    height: 50vh;
-    width: 50px;
-    background: white;
+    height: 40vh;
+    width: 5px;
+    background: #fa8787;
+    position: absolute;
+    z-index: 4000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 40px;
+    top: 25vh;
+    justify-content: space-between;
   }
 
   .circle {
-    width: 100px;
-    height: 100px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
   }
+
+  #circle-one {
+    background: white;
+  }
+
+#circle-two, #circle-three, #circle-four {
+    background: #fa8787;
+  }
+  
 
   .page-section {
     height: 100vh;
