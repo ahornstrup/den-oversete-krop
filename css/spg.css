@@ -269,8 +269,7 @@ hr {
     justify-content: center;
     align-items: center;
     gap: 150px;
-    z-index: 1000;
-    pointer-events: none;
+  
   }
 
   .krop-img {
