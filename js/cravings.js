@@ -1,3 +1,4 @@
+"use strict"
 document.querySelectorAll("figure").forEach(figure => {
     figure.addEventListener("click", () => {
       const popupId = figure.getAttribute("data-popup");
