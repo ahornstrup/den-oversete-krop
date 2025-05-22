@@ -134,35 +134,45 @@ hr {
 #hjerne {
     height: 50px;
     width: auto;
-    position: absolute;
-    transform: translateX(-50%);
-    top: 45px;
+}
+
+#hjerne:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
 }
 
 #hjerte {
     height: 70px;
     width: auto;
-    position: absolute;
-    transform: translateX(-50%);
-    top: 250px;
+}
+
+#hjerte:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
 }
 
 #tarmsystem {
     height: 140px;
     width: auto;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 350px;
+    position: relative;
+    top: -130px;
+}
+
+#tarmsystem:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
 }
 
 #livmoder {
     height: 80px;
     width: auto;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 510px;
+    position: relative;
+    top: -270px;
+}
+
+#livmoder:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
 }
 
 .popup {
@@ -252,8 +262,14 @@ hr {
   }
 
   .kropsdele {
+    position: relative;
+    top: 45px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    gap: 150px;
+    z-index: 1000;
   }
 
   .krop-img {
