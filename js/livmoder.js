@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
         </article>
 
         <img id="pil-2" src="img/pil-endometriet.svg" alt="vejledende pil">
+        <p class="tryk-videre">Tryk videre</p>
       `;
       krop.style.transform = `translateX(300px) translateY(-1800px)`;
 
@@ -40,6 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <p id="infotekst-2">Ved hver menstruationscyklus modnes ét æg i en lille "bobbel" kaldet en follikel.</p>
             <p id="infotekst-3">Omkring midt i cyklussen sker ægløsning. Folliklen sprænger, og ægget frigives fra æggestokken.</p>
             <p id="infotekst-4">Ægget bliver fanget af æggelederen og begynder sin rejse mod livmoderen.</p>
+            <p class="tryk-videre">Tryk videre</p>
     </main>
         </article>
       `;
@@ -55,6 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
               <h2>Hvis ingen befrugtning sker, går ægget til grunde og udskilles sammen med slimhinden under menstruationen.</h2>
             </article>
+            <p class="tryk-videre">Tryk videre</p>
     </main>
         </article>
       `;
