@@ -129,3 +129,30 @@ document.addEventListener("DOMContentLoaded", () => {
   );
 });
 
+// 🔊 Sound hover interactions
+document.addEventListener("DOMContentLoaded", () => {
+  const slowButton = document.getElementById("slow-button");
+  const fastButton = document.getElementById("fast-button");
+  const slowSound = document.getElementById("hoverSound");
+  const fastSound = document.getElementById("hoverSound-fast");
+
+  slowButton.addEventListener("mouseenter", () => {
+    slowSound.currentTime = 0;
+    slowSound.play();
+  });
+
+  slowButton.addEventListener("mouseleave", () => {
+    slowSound.pause();
+    slowSound.currentTime = 0;
+  });
+
+  fastButton.addEventListener("mouseenter", () => {
+    fastSound.currentTime = 0;
+    fastSound.play();
+  });
+
+  fastButton.addEventListener("mouseleave", () => {
+    fastSound.pause();
+    fastSound.currentTime = 0;
+  });
+});
