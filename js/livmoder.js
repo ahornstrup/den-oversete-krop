@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <article class="livmoder" id="uterusthird">
              <main>
         <h1>Ægløsning</h1>
-        <video id="video-livmoder" src="video/image 12.webm" autoplay muted loop></video>
+        <video id="video-livmoder" src="video/livmoder.webm" autoplay muted loop></video>
             <img id="info-1" src="img/ovu-01.svg" alt="Knap 1">
             <img id="info-2" src="img/ovu-2.svg" alt="Knap 2">
             <img id="info-3" src="img/ovu-3.svg" alt="Knap 3">
@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
       newDiv.innerHTML = `
         <article class="livmoder" id="uterusfourth">
              <main>
-        <video id="video-livmoder" src="video/image 12.webm" autoplay muted loop></video>
+        <video id="video-livmoder" src="video/livmoder.webm" autoplay muted loop></video>
         <article class="uterus-article fourth">
                 <h1>Menstruation</h1>
 
@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
       newDiv.innerHTML = `
         <article class="livmoder fifth" id="uterusfifth">
              <main>
-        <video id="video-livmoder" src="video/image 12.webm" autoplay muted loop></video>
+        <video id="video-livmoder" src="video/livmoder.webm" autoplay muted loop></video>
 
 
             <section class="fifth-column">
