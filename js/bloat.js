@@ -26,5 +26,23 @@ window.addEventListener('DOMContentLoaded', () => {
         lyd.play().catch((e) => {
           console.warn("Lyd kunne ikke afspilles automatisk:", e);
         });
-      }, 1000); // 1000 ms = 1 sekund
+      }, 1000);
     });
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const scrollDownArticle = document.querySelector('.scroll-down-article');
+      const verticalScroll = document.querySelector('.vertical-scroll');
+      const secondArticle = verticalScroll.querySelectorAll('article')[1];
+    
+      verticalScroll.addEventListener('scroll', () => {
+        const containerRect = verticalScroll.getBoundingClientRect();
+        const secondArticleRect = secondArticle.getBoundingClientRect();
+    
+        if (secondArticleRect.top <= containerRect.top + 10) { // +10 for some tolerance
+          scrollDownArticle.style.display = 'none';
+        } else {
+          scrollDownArticle.style.display = '';
+        }
+      });
+    });
+    

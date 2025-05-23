@@ -84,10 +84,11 @@ nav {
     flex-direction: column;
     overflow-y: auto;
     scroll-snap-type: y mandatory;
-    gap: 2rem;
+    scroll-behavior: smooth;
+    scroll-padding-top: 1rem;
     padding: 1rem;
-    width: 42rem;        /* fast bredde */
-    height: 25rem;       /* fast højde */
+    width: 42rem;
+    height: 25rem;
     border-radius: 10px;
     position: absolute;
     top: 10rem;
@@ -99,9 +100,13 @@ nav {
     flex: 0 0 auto;
     scroll-snap-align: start;
     width: 100%;
+    height: 25rem; /* samme højde som containeren */
     border-radius: 8px;
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
   }
+  
 
   .tarm {
     width: 38rem;
@@ -183,4 +188,12 @@ nav {
     font-size: 2rem;
     font-weight: 600;
     padding: 1rem 2rem;
+}
+
+.scroll-down-article {
+  display: flex;
+  width: 80%;
+  height: 80vh;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
