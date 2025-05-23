@@ -72,7 +72,6 @@ document.addEventListener("DOMContentLoaded", function () {
              <main>
         <video id="video-livmoder" src="video/livmoder.webm" autoplay muted loop></video>
 
-
             <section class="fifth-column">
             <section class="cyklus">
             <h5>Menstruation</h5>
